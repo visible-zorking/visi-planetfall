@@ -1,0 +1,19 @@
+# Maps game file indexes to ZIL source code names.
+# Also some other kinds of info.
+#
+# This information was compiled manually; there is no simple way to
+# extract it from the source and game file. (Everything that could
+# be extracted automatically is handled by pyana. Which loads this info
+# to orient itself.)
+#
+# Much of this work was done by Allen Garvin et al in 2007:
+#   https://ifarchive.org/indexes/if-archive/infocom/tools/reform/
+# However, they didn't have the source code names, so I have done
+# additional work in matching up to the ZIL code.
+
+# Functions (high memory): "CodeArea" from reform
+# Strings (high memory): "StringArea" from reform
+
+# Source files in arbitrary (alphabetical) order.
+# The second number is the order that code is generated in the game file.
+# (Which is, usually, the same order that the files are included.)
