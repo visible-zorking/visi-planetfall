@@ -11,9 +11,18 @@
 # However, they didn't have the source code names, so I have done
 # additional work in matching up to the ZIL code.
 
-# Functions (high memory): "CodeArea" from reform
-# Strings (high memory): "StringArea" from reform
+# Functions (high memory): $5664
+# Strings (high memory): $15A94
 
 # Source files in arbitrary (alphabetical) order.
 # The second number is the order that code is generated in the game file.
 # (Which is, usually, the same order that the files are included.)
+
+SourceFile 1 compone.zil     7
+SourceFile 2 comptwo.zil     8
+SourceFile 3 globals.zil     4
+SourceFile 4 misc.zil        3
+SourceFile 5 parser.zil      5
+SourceFile 6 planetfall.zil  1
+SourceFile 7 syntax.zil      2
+SourceFile 8 verbs.zil       6
