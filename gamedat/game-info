@@ -283,6 +283,33 @@ Object 253 ROOMS
 Object 254 LOCAL-GLOBALS
 Object 255 GLOBAL-OBJECTS
 
+Property 6 FDESC  STR
+Property 7 CAPACITY  INT
+Property 8 TEXT  STR
+Property 9 GLOBAL  OBJS
+Property 10 C-MOVE  ###dirtable
+Property 11 LDESC  STR
+Property 12 ADJECTIVE  ADJS
+Property 13 ACTION  RTN
+Property 14 PSEUDO  WORDRTNS
+Property 15 SIZE  INT
+Property 16 DESCFCN  RTN
+Property 17 CONTFCN  RTN
+Property 18 VALUE  INT
+Property 19 SYNONYM  WORDS
+Property 20 OUT  DIR
+Property 21 IN  DIR
+Property 22 DOWN  DIR
+Property 23 UP  DIR
+Property 24 NW  DIR
+Property 25 WEST  DIR
+Property 26 SW  DIR
+Property 27 SOUTH  DIR
+Property 28 SE  DIR
+Property 29 EAST  DIR
+Property 30 NE  DIR
+Property 31 NORTH  DIR
+
 
 Global 0 HERE
 Global 1 SCORE
