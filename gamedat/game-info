@@ -505,9 +505,9 @@ Global 217 MUNGED-TIME
 Global 218 LOAD-ALLOWED
 Global 219 LOW-DIRECTION
 Global 220 C-ELAPSED
-### Global 221 ### C-TABLE, C-DEMONS, C-INTS
-### Global 222 ### C-TABLE, C-DEMONS, C-INTS
-### Global 223 ### C-TABLE, C-DEMONS, C-INTS
+Global 221 C-INTS
+Global 222 C-DEMONS
+Global 223 C-TABLE
 ### Global 224 ### L-PRSA, L-PRSO, L-PRSI
 ### Global 225 ### L-PRSA, L-PRSO, L-PRSI
 ### Global 226 ### L-PRSA, L-PRSO, L-PRSI
