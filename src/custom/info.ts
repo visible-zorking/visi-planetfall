@@ -7,6 +7,12 @@ export function sourceloc_start() : string
 
 // Presentation order. Filenames must match game-info!
 export const sourcefile_presentation_list: string[] = [
-    'game.zil',
-    //...more files...
+    'planetfall.zil',
+    'compone.zil',
+    'comptwo.zil',
+    'globals.zil',
+    'parser.zil',
+    'syntax.zil',
+    'verbs.zil',
+    'misc.zil',
 ];
