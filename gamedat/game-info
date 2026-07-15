@@ -573,3 +573,14 @@ Global 228 PREPOSITIONS  table created from SYNTAX
 Global 229 ACTIONS  table created from SYNTAX
 Global 230 PREACTIONS  table created from SYNTAX
 Global 231 VERBS  table created from SYNTAX
+
+# Map connections that don't come directly from room properties.
+# (These are used for the "list rooms in order of closeness to you"
+# display tab.)
+
+MapExtraConn - BRIG SOUTH DECK-EIGHT
+MapExtraConn - DECK-EIGHT NORTH BRIG
+MapExtraConn - ESCAPE-POD EAST DECK-NINE
+MapExtraConn - ESCAPE-POD OUT UNDERWATER
+MapExtraConn - DORM-CORRIDOR EAST CORRIDOR-JUNCTION
+MapExtraConn - CORRIDOR-JUNCTION WEST DORM-CORRIDOR
