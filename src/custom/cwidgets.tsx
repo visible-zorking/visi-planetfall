@@ -3,9 +3,11 @@ import { useState, useContext, createContext } from 'react';
 
 import { ZStatePlus, ZObject } from '../visi/zstate';
 import { ObjectData, GlobalData } from '../visi/gametypes';
+import { unpack_address } from '../visi/gametypes';
 import { StackCallCtx } from '../visi/context';
 import { ArgShowObject, ArgShowProperty } from '../visi/actshowers';
 import { gamedat_ids, gamedat_distances, gamedat_object_treesort } from '../visi/gamedat';
+import { gamedat_string_map } from '../visi/gamedat';
 
 export function contains_label(obj: ObjectData) : string
 {
@@ -60,6 +62,14 @@ export function ObjListSorter({ followKey, setFollowKey } : { followKey:number, 
 
 export function global_value_display(tag: string, value: number, glo: GlobalData) : JSX.Element|null
 {
+    switch (tag) {
+        
+    case 'TRIMSTR':
+        return (
+            <VarShowStringTrimmed value={ value } />
+        )
+    }
+
     return null;
 }
 
@@ -90,5 +100,25 @@ export function stack_call_arg_display(tag: string, value: number) : JSX.Element
     }
 
     return null;
+}
+
+export function VarShowStringTrimmed({ value }: { value:number })
+{
+    if (value == 0) {
+        return <i>no string</i>;
+    }
+    
+    let obj = gamedat_string_map.get(unpack_address(value));
+    
+    if (obj) {
+        let val = obj.text;
+        if (val.length > 60) {
+            val = val.slice(0, 60) + '...';
+        }
+        
+        return (<span className="PrintString">&#x201C;{ val }&#x201D;</span>);
+    }
+
+    return (<span>???</span>);
 }
 
