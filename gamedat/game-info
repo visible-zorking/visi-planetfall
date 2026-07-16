@@ -473,16 +473,16 @@ Global 128 FUMBLE-NUMBER
 Global 129 INDENTS
 Global 130 DAY
 Global 131 INTERNAL-MOVES
-### Global 132 ###
+Global 132 LIT
 Global 133 SUPER-BRIEF
 Global 134 VERBOSE
 Global 135 P-XADJN
-### Global 136 ### P-XNAM, P-XADJ
-### Global 137 ### P-XNAM, P-XADJ
+Global 136 P-XADJ
+Global 137 P-XNAM
 Global 138 P-MOBY-FOUND
 Global 139 P-AND
-### Global 140 ### P-ONEOBJ, P-CSPTR, P-CEPTR
-### Global 141 ### P-ONEOBJ, P-CSPTR, P-CEPTR
+Global 140 P-CEPTR
+Global 141 P-CSPTR
 Global 142 P-GETFLAGS
 Global 143 P-MATCHLEN
 Global 144 P-OCLAUSE
@@ -513,16 +513,16 @@ Global 168 P-IT-OBJECT  OBJ
 Global 169 P-CONT
 Global 170 P-INBUF
 Global 171 P-LEXV
-Global 172 WINNER
-### Global 173 ### P-ADVERB, P-SPACE, P-DIR
+Global 172 WINNER  OBJ
+Global 173 P-DIR
 Global 174 P-LEN
 Global 175 P-CCSRC
 Global 176 P-SYNTAX
-### Global 177 ### P-ONEOBJ, P-CSPTR, P-CEPTR
+Global 177 P-ONEOBJ
 Global 178 P-TABLE
-### Global 179 ### P-ADVERB, P-SPACE, P-DIR
+Global 179 P-SPACE
 Global 180 P-ADJECTIVE
-### Global 181 ### P-ADVERB, P-SPACE, P-DIR
+Global 181 P-ADVERB
 Global 182 PRSO
 Global 183 PRSI
 Global 184 PRSA
@@ -565,9 +565,9 @@ Global 220 C-ELAPSED
 Global 221 C-INTS
 Global 222 C-DEMONS
 Global 223 C-TABLE
-### Global 224 ### L-PRSA, L-PRSO, L-PRSI
-### Global 225 ### L-PRSA, L-PRSO, L-PRSI
-### Global 226 ### L-PRSA, L-PRSO, L-PRSI
+Global 224 L-PRSI
+Global 225 L-PRSO
+Global 226 L-PRSA
 Global 227 P-WON
 Global 228 PREPOSITIONS  table created from SYNTAX
 Global 229 ACTIONS  table created from SYNTAX
