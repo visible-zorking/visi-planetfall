@@ -283,33 +283,34 @@ Object 253 ROOMS
 Object 254 LOCAL-GLOBALS
 Object 255 GLOBAL-OBJECTS
 
-# Attribute X CLIMBBIT
-# Attribute X CONTBIT
-# Attribute X DOORBIT
-# Attribute X FLOYDBIT
-# Attribute X MUNGBIT
-# Attribute X MUNGEDBIT
-# Attribute X OPENBIT
-# Attribute X SCRAMBLEDBIT
-# Attribute X SEARCHBIT
-# Attribute X SURFACEBIT
-# Attribute X TOOLBIT
-# Attribute X TOUCHBIT
-# Attribute X TRANSBIT
-# Attribute X TRYTAKEBIT
-# Attribute X WORNBIT
+Attribute 2 FLOYDBIT
 Attribute 3 RWATERBIT
 Attribute 4 ACIDBIT
 Attribute 5 ONBIT
 Attribute 6 RLANDBIT
 Attribute 7 VOWELBIT
 Attribute 8 NDESCBIT
+Attribute 9 TRANSBIT
+Attribute 10 SEARCHBIT
+Attribute 11 OPENBIT
+Attribute 12 WORNBIT
+Attribute 13 SCRAMBLEDBIT
+Attribute 14 MUNGEDBIT
+Attribute 15 MUNGBIT
+Attribute 16 TRYTAKEBIT
+Attribute 17 SURFACEBIT
+Attribute 18 TOUCHBIT
 Attribute 19 INVISIBLE
+Attribute 20 TOOLBIT
 Attribute 21 LIGHTBIT
 Attribute 22 WEARBIT
 Attribute 23 READBIT
+Attribute 24 CONTBIT
 Attribute 25 TAKEBIT
+Attribute 26 DOORBIT
 Attribute 27 FOODBIT
+Attribute 28 RMUNGBIT
+Attribute 29 CLIMBBIT
 Attribute 30 VEHBIT
 Attribute 31 ACTORBIT
 
