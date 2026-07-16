@@ -4,8 +4,9 @@ import { useState, useContext, createContext } from 'react';
 import { ZStatePlus, ZObject } from '../visi/zstate';
 import { ObjectData, GlobalData } from '../visi/gametypes';
 import { unpack_address } from '../visi/gametypes';
-import { StackCallCtx } from '../visi/context';
+import { ReactCtx, StackCallCtx } from '../visi/context';
 import { ArgShowObject, ArgShowProperty } from '../visi/actshowers';
+import { VarShowObject, VarShowProperty } from '../visi/globshow';
 import { gamedat_ids, gamedat_distances, gamedat_object_treesort } from '../visi/gamedat';
 import { gamedat_string_map } from '../visi/gamedat';
 
@@ -63,6 +64,17 @@ export function ObjListSorter({ followKey, setFollowKey } : { followKey:number, 
 export function global_value_display(tag: string, value: number, glo: GlobalData) : JSX.Element|null
 {
     switch (tag) {
+        
+    case 'PRSO':
+        let rctx = useContext(ReactCtx);
+        if (rctx.zstate.globals[184] == 120) {  /* PRSA == WALK */
+            return (
+                <VarShowProperty value={ value } />
+            )
+        }
+        return (
+            <VarShowObject value={ value } />
+        )
         
     case 'TRIMSTR':
         return (
