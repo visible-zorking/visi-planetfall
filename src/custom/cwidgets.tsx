@@ -87,6 +87,15 @@ export function global_value_display(tag: string, value: number, glo: GlobalData
 
 export function property_value_display(tag: string, values: number[]) : JSX.Element|null
 {
+    switch (tag) {
+        
+    case 'CMOVE':
+        return (
+            <VarShowCMove value={ values[0]*0x100+values[1] } />
+        )
+
+    }
+    
     return null;
 }
 
@@ -132,5 +141,22 @@ export function VarShowStringTrimmed({ value }: { value:number })
     }
 
     return (<span>???</span>);
+}
+
+const chem_colors = [
+    "none", "red", "blue", "green", "yellow", "gray", "brown", "black", "clear", "clear"
+];
+
+export function VarShowCMove({ value }: { value:number })
+{
+    if (value < chem_colors.length) {
+        return (
+            <span>{ value }:<i>{ chem_colors[value] }</i></span>
+        );
+    }
+    
+    return (
+        <span>{ value }:???</span>
+    );
 }
 

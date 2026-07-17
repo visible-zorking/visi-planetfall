@@ -318,7 +318,7 @@ Property 6 FDESC  STR
 Property 7 CAPACITY  INT
 Property 8 TEXT  STR
 Property 9 GLOBAL  OBJS
-Property 10 C-MOVE  ###dirtable
+Property 10 C-MOVE  CMOVE
 Property 11 LDESC  STR
 Property 12 ADJECTIVE  ADJS
 Property 13 ACTION  RTN
@@ -586,6 +586,7 @@ RoutineType - GLOBAL-IN? OBJ OBJ
 RoutineType - HERE? OBJ
 RoutineType - GWIM - - PREP
 RoutineType - JIGS-UP STR
+RoutineType - LIKE-SLIME STR
 RoutineType - PERFORM ACTION PERFORMO PERFORMI
 RoutineType - PICK-ONE TABLE
 RoutineType - ROB OBJ OBJ
