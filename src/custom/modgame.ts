@@ -11,7 +11,11 @@ export function get_specifics(engine: GnustoEngine, state: ZState): SpecificPlan
     function get_cmove_table(addr: number) : number[]
     {
         console.log('### get_cmove_table', addr);
-        return [1, 2, 3];
+        let res = [];
+        for (let ix=0; ix<12; ix++) {
+            res.push(engine.getWord(addr+2*ix));
+        }
+        return res;
     }
 
     return { get_cmove_table };

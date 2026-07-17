@@ -9,6 +9,7 @@ import { ArgShowObject, ArgShowProperty } from '../visi/actshowers';
 import { VarShowObject, VarShowProperty } from '../visi/globshow';
 import { gamedat_ids, gamedat_distances, gamedat_object_treesort } from '../visi/gamedat';
 import { gamedat_string_map } from '../visi/gamedat';
+import { SpecificPlanetfall } from './modgame';
 
 export function contains_label(obj: ObjectData) : string
 {
@@ -146,17 +147,42 @@ export function VarShowStringTrimmed({ value }: { value:number })
 const chem_colors = [
     "none", "red", "blue", "green", "yellow", "gray", "brown", "black", "clear", "clear"
 ];
+const dir_names = [
+    "out", "in", "down", "up",
+    "nw", "west", "sw", "south",
+    "se", "east", "ne", "north",
+];
 
 export function VarShowCMove({ value }: { value:number })
 {
+    let rctx = useContext(ReactCtx);
+    let zstate = rctx.zstate;
+    
     if (value < chem_colors.length) {
         return (
             <span>{ value }:<i>{ chem_colors[value] }</i></span>
         );
     }
+
+    let specifics = zstate.specifics as SpecificPlanetfall;
+    let cmove = specifics.get_cmove_table(value);
+    console.log('###', cmove.join(","));
+
+    let res: string[] = [];
+    for (let ix=0; ix<cmove.length; ix++) {
+        if (cmove[ix]) {
+            res.push(dir_names[ix]+':'+cmove[ix]);
+        }
+    }
+
+    if (!res.length) {
+        return (
+            <i>default</i>
+        );
+    }
     
     return (
-        <span>{ value }:???</span>
+        <span>{ res.join(', ') }</span>
     );
 }
 
