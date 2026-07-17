@@ -7,6 +7,8 @@ import { default_prefs, get_cookie_prefs, set_body_pref_theme, set_body_pref_arr
 import { set_runner } from '../visi/combuild';
 import { VisiZorkApp, AppContext, set_app_context } from '../visi/main';
 
+import { get_specifics } from './modgame';
+
 let runner: GnustoRunner;
 let engine: GnustoEngine;
 
@@ -39,6 +41,7 @@ export function init(runnerref: any)
 
     let appctx: AppContext = {
         launchtoken: launchtoken,
+        reportspecs: get_specifics,
     }
     
     set_app_context(engine, initprefs, appctx);
