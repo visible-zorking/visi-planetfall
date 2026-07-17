@@ -10,5 +10,22 @@
 ABOUT: Welcome to the commentary track!
 
 
+prop:C-MOVE: This property does double duty. For rooms, it specifies extra travel time for particular directions. (That is, unusually long exit paths.)
+	For the dispenser buttons on the [~obj:CHEMICAL-DISPENSER], `C-MOVE` specifies the chemical color.
+	(In fact *Planetfall* only uses 26 of the 31 properties, so there’s no need to double up like this.)
 
-### MICROBE-F: definitely mis-indented.
+
+glob:C-TABLE: The timer table. See the “Timers” tab for a current listing.
+
+TIMERS-LEGEND: A list of the timers running (or paused) in the timer table ([~glob:C-TABLE]). Positive numbers count down (while enabled) and call the named function after that many millichrons. Negative numbers are called every turn while the timer is enabled.
+	(*Planetfall* is the first Infocom game in which timers can count down by arbitrary amounts of time. *Deadline* fakes its long `WAIT`s by calling [~rtn:CLOCKER] once per minute.)
+	This list only grows as you play; timers can be added, started, and stopped, but not removed.
+
+
+
+### delay on random setup?
+
+
+### MICROBE-F: definitely mis-nested.
+
+### SERIAL is 1
