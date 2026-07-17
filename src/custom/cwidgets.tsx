@@ -77,6 +77,11 @@ export function global_value_display(tag: string, value: number, glo: GlobalData
             <VarShowObject value={ value } />
         )
         
+    case 'CMOVE':
+        return (
+            <VarShowCMove value={ value } />
+        )
+        
     case 'TRIMSTR':
         return (
             <VarShowStringTrimmed value={ value } />
@@ -145,7 +150,7 @@ export function VarShowStringTrimmed({ value }: { value:number })
 }
 
 const chem_colors = [
-    "none", "red", "blue", "green", "yellow", "gray", "brown", "black", "clear", "clear"
+    "none", "red", "blue", "green", "yellow", "gray", "brown", "black", "clear", "clear", "???",
 ];
 const dir_names = [
     "out", "in", "down", "up",
