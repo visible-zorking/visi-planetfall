@@ -166,23 +166,28 @@ export function VarShowCMove({ value }: { value:number })
 
     let specifics = zstate.specifics as SpecificPlanetfall;
     let cmove = specifics.get_cmove_table(value);
-    console.log('###', cmove.join(","));
 
-    let res: string[] = [];
+    let ls = [];
     for (let ix=0; ix<cmove.length; ix++) {
         if (cmove[ix]) {
-            res.push(dir_names[ix]+':'+cmove[ix]);
+            let first = (ls.length == 0);
+            ls.push(
+                <span key={ ix }>
+                    { first ? '' : ', ' }
+                    <i>{ dir_names[ix] }</i>:{ cmove[ix] }
+                </span>
+            );
         }
     }
 
-    if (!res.length) {
+    if (!ls.length) {
         return (
             <i>default</i>
         );
     }
     
     return (
-        <span>{ res.join(', ') }</span>
+        <span>{ ls }</span>
     );
 }
 
