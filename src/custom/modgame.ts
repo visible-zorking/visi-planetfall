@@ -22,7 +22,7 @@ export function get_specifics(engine: GnustoEngine, state: ZState): SpecificPlan
 }
 
 let translation_list: string[] = [];
-const MAX_LIST = 4;
+const MAX_LIST = 40;
 
 export function update_translation_list(ev: Event)
 {
