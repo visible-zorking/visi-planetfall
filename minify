@@ -27,6 +27,7 @@ gamedat.js)
        src/game/commentary.js \
        src/game/mapinfo.js \
        src/game/gameids.js \
+       src/game/translation.js \
        visiterp/src/gamedat/gamedat.js"
   ;;
 
