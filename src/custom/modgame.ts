@@ -1,6 +1,7 @@
 import { unpack_address } from '../visi/gametypes';
 import { GnustoEngine, ZState } from '../visi/zstate';
 import { gamedat_routine_names, gamedat_global_names, gamedat_string_map } from '../visi/gamedat';
+import { gamedat_translation_addrs } from './info';
 
 export type SpecificPlanetfall = {
     get_cmove_table: (addr: number) => number[];
@@ -18,6 +19,28 @@ export function get_specifics(engine: GnustoEngine, state: ZState): SpecificPlan
     }
 
     return { get_cmove_table };
+}
+
+let translation_list: string[] = [];
+const MAX_LIST = 4;
+
+export function update_translation_list(ev: Event)
+{
+    let detail: ZState = (ev as CustomEvent).detail;
+
+    for (let addr of detail.strings) {
+        let text = gamedat_translation_addrs.get(addr);
+        if (!text)
+            continue;
+        if (translation_list.length && translation_list[translation_list.length-1] == text) 
+            continue;
+        translation_list.push(text);
+    }
+
+    if (translation_list.length > MAX_LIST)
+        translation_list = translation_list.slice(translation_list.length - MAX_LIST);
+
+    console.log('### list', translation_list);
 }
 
 export function show_commentary_hook(topic: string, engine: GnustoEngine): string|null

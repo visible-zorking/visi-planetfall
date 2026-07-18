@@ -7,7 +7,7 @@ import { default_prefs, get_cookie_prefs, set_body_pref_theme, set_body_pref_arr
 import { set_runner } from '../visi/combuild';
 import { VisiZorkApp, AppContext, set_app_context } from '../visi/main';
 
-import { get_specifics } from './modgame';
+import { get_specifics, update_translation_list } from './modgame';
 
 let runner: GnustoRunner;
 let engine: GnustoEngine;
@@ -45,6 +45,8 @@ export function init(runnerref: any)
     }
     
     set_app_context(engine, initprefs, appctx);
+
+    window.addEventListener('zstate-update', update_translation_list);
     
     const appel = document.getElementById('appbody') as HTMLElement;
     let root = createRoot(appel);
