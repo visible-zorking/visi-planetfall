@@ -34869,6 +34869,16 @@ var bundle = (function (exports) {
       document.body.className = cla;
   }
 
+  function get_specifics(engine, state) {
+      function get_cmove_table(addr) {
+          let res = [];
+          for (let ix = 0; ix < 12; ix++) {
+              res.push(engine.getWord(addr + 2 * ix));
+          }
+          return res;
+      }
+      return { get_cmove_table };
+  }
   function show_commentary_hook(topic, engine) {
       return null;
   }
@@ -35806,12 +35816,18 @@ var bundle = (function (exports) {
                   return (jsxRuntimeExports.jsx(VarShowProperty, { value: value }));
               }
               return (jsxRuntimeExports.jsx(VarShowObject, { value: value }));
+          case 'CMOVE':
+              return (jsxRuntimeExports.jsx(VarShowCMove, { value: value }));
           case 'TRIMSTR':
               return (jsxRuntimeExports.jsx(VarShowStringTrimmed, { value: value }));
       }
       return null;
   }
   function property_value_display(tag, values) {
+      switch (tag) {
+          case 'CMOVE':
+              return (jsxRuntimeExports.jsx(VarShowCMove, { value: values[0] * 0x100 + values[1] }));
+      }
       return null;
   }
   function stack_call_arg_display(tag, value) {
@@ -35840,6 +35856,34 @@ var bundle = (function (exports) {
           return (jsxRuntimeExports.jsxs("span", { className: "PrintString", children: ["\u201C", val, "\u201D"] }));
       }
       return (jsxRuntimeExports.jsx("span", { children: "???" }));
+  }
+  const chem_colors = [
+      "none", "red", "blue", "green", "yellow", "gray", "brown", "black", "clear", "clear", "???",
+  ];
+  const dir_names = [
+      "out", "in", "down", "up",
+      "nw", "west", "sw", "south",
+      "se", "east", "ne", "north",
+  ];
+  function VarShowCMove({ value }) {
+      let rctx = reactExports.useContext(ReactCtx);
+      let zstate = rctx.zstate;
+      if (value < chem_colors.length) {
+          return (jsxRuntimeExports.jsxs("span", { children: [value, ":", jsxRuntimeExports.jsx("i", { children: chem_colors[value] })] }));
+      }
+      let specifics = zstate.specifics;
+      let cmove = specifics.get_cmove_table(value);
+      let ls = [];
+      for (let ix = 0; ix < cmove.length; ix++) {
+          if (cmove[ix]) {
+              let first = (ls.length == 0);
+              ls.push(jsxRuntimeExports.jsxs("span", { children: [first ? '' : ', ', jsxRuntimeExports.jsx("i", { children: dir_names[ix] }), ":", cmove[ix]] }, ix));
+          }
+      }
+      if (!ls.length) {
+          return (jsxRuntimeExports.jsx("i", { children: "default" }));
+      }
+      return (jsxRuntimeExports.jsx("span", { children: ls }));
   }
 
   function new_context$5() {
@@ -36481,7 +36525,7 @@ var bundle = (function (exports) {
       }
       let propvalues = null;
       if (prop.vartype) {
-          propvalues = property_value_display(prop.vartype);
+          propvalues = property_value_display(prop.vartype, values);
       }
       if (propvalues == null) {
           switch (prop.vartype || '') {
@@ -37029,7 +37073,7 @@ var bundle = (function (exports) {
   function AboutPage() {
       let rctx = reactExports.useContext(ReactCtx);
       let zstate = rctx.zstate;
-      let lastupdate = 'July 15, 2026';
+      let lastupdate = 'July 16, 2026';
       let curroom = '???';
       let firstobj = '';
       let map = new Map();
@@ -37091,6 +37135,10 @@ var bundle = (function (exports) {
       "Supporter": ["Cat", "Christopher", "Daniel Smith", "Derrell Piper", "Eric Neustadter", "Lachlan Cooper", "louis rodriguez", "Nevin", "Vivienne Dunstan"],
   };
 
+  function FeeliesPage() {
+      return (jsxRuntimeExports.jsx("div", { className: "ScrollContent", children: jsxRuntimeExports.jsxs("div", { className: "FeeliesPage", children: [jsxRuntimeExports.jsx("h2", { children: "Life in the Stellar Patrol" }), jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx("i", { children: "Planetfall" }), " came with a packet of over-the-top recruiting material for the Stellar Patrol. However, nothing in the package was intended as copy protection or even critical background material. The opening paragraph of the game tells you everything you need to know."] }), jsxRuntimeExports.jsxs("p", { children: ["To browse a scanned version of the manual and feelies, visit the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://infodoc.plover.net/manuals/planetfa.pdf', text: 'InfoDoc Project' }), ". For high-resolution scans, visit the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://archive.org/details/Infocom_Planetfall_Apple', text: 'Internet Archive' }), "."] }), jsxRuntimeExports.jsx("h2", { children: "Special commands" }), jsxRuntimeExports.jsxs("p", { children: ["The only special feature of ", jsxRuntimeExports.jsx("i", { children: "Planetfall" }), "\u2019s commands is that time is measured in \u201Cmillichrons\u201D instead of turns. Different actions take different amounts of time. A simple ", jsxRuntimeExports.jsx("code", { children: "GET" }), " might take only seven millichrons (about a minute); walking down a long hallway might take 150 or more. You will require regular food and sleep, so try not to waste time."] }), jsxRuntimeExports.jsx("p", { children: "The status line displays the current time of day, from 0000 (midnight) to 5000 (noon) to 9999 (about to be midnight again). Don\u2019t lose your chronometer!" })] }) }));
+  }
+
   const tab_list = [
       ['activity', 'Activity'],
       ['objtree', 'World'],
@@ -37099,6 +37147,7 @@ var bundle = (function (exports) {
       ['timers', 'Timers'],
       ['grammar', 'Grammar'],
       ['filelist', 'Files'],
+      ['feelies', 'Feelies'],
       ['about', '?'],
   ];
   function TabbedPane() {
@@ -37151,6 +37200,9 @@ var bundle = (function (exports) {
               break;
           case 'about':
               tabcontent = jsxRuntimeExports.jsx(AboutPage, {});
+              break;
+          case 'feelies':
+              tabcontent = jsxRuntimeExports.jsx(FeeliesPage, {});
               break;
           default:
               tabcontent = jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [rctx.tab, " not implemented"] });
@@ -37404,6 +37456,7 @@ var bundle = (function (exports) {
       }
       let appctx = {
           launchtoken: launchtoken,
+          reportspecs: get_specifics,
       };
       set_app_context(engine, initprefs, appctx);
       const appel = document.getElementById('appbody');
