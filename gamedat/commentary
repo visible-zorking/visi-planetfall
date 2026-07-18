@@ -15,6 +15,9 @@ prop:C-MOVE: This property does double duty. For rooms, it specifies extra trave
 	(In fact *Planetfall* only uses 26 of the 31 properties, so there’s no need to double up like this.)
 
 
+glob:LOAD-ALLOWED: The maximum weight you can carry. This decreases as you become sicker; see [rtn:I-SICKNESS-WARNINGS].
+	Most Infocom games track your initial weight limit (as `LOAD-MAX`). This allows the game to restore `LOAD-ALLOWED` when you heal. But in *Planetfall*, you never return to full health! So it is sufficient to track incremental changes.
+
 glob:C-TABLE: The timer table. See the “Timers” tab for a current listing.
 
 TIMERS-LEGEND: A list of the timers running (or paused) in the timer table ([~glob:C-TABLE]). Positive numbers count down (while enabled) and call the named function after that many millichrons. Negative numbers are called every turn while the timer is enabled.
