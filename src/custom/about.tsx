@@ -122,6 +122,20 @@ export function AboutPage()
                     is what you think.                    
                 </p>
                 <p>
+                    The
+                    {' '}<a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'translate') }>Translation</a>{' '}
+                    tab displays a running translation of the Residan text
+                    that you find on signs, computer displays, and so forth.
+                    This language is not meant to be a puzzle &#x2014;
+                    at least not a serious puzzle.
+                    It&#x2019;s English, but with a phonetic spelling
+                    system to give the sense of an archaic or divergent
+                    culture. It&#x2019;s very atmospheric.
+                    It&#x2019;s also annoying as heck after a while,
+                    so I have provided a magic spelling
+                    corrector. You&#x2019;re welcome.
+                </p>
+                <p>
                     Click on any function, object, or variable to see its
                     definition in the source code. Click on an object&#x2019;s
                     {' '}<ObjPageLink onum={ gamedat_ids.ADVENTURER } /> button
