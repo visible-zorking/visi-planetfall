@@ -40,6 +40,10 @@ rtn:I-SICKNESS-WARNINGS: The timer that handles the progression of The Disease.
 glob:SICKNESS-WARNING-FLAG: Indicates whether your [~glob:SICKNESS-LEVEL] is about to get worse. This flag is set [after sleeping|~rtn:WAKING-UP] and after your [first shuttle ride|~rtn:LAWANDA-PLATFORM-F]. It takes effect the next time [rtn:I-SICKNESS-WARNINGS] fires. (So up to 700 millichrons after sleeping, etc.)
 
 
+PHONETIC: The printed language uses a phonetic spelling system. Long vowels are always doubled; “X” means “th”; “C” means “ch”; and so on. There are no silent letters.
+	Amusingly, the Residan *spoken* language remains identical to Galalingua. (Floyd doesn’t seem to have an accent. Nor do [recorded announcements|~rtn:I-ANNOUNCEMENT].) This is somewhat unrealistic; real languages tend to change pronunciation faster than spelling, which is why the tough coughs as he ploughs dough.
+
+
 glob:DIAL-NUMBER: The current setting of the [~obj:COMBINATION-DIAL].
 
 glob:NUMBER-NEEDED: The correct combination for the [~obj:COMBINATION-DIAL]. The value is set *after* your first move; see [rtn:I-RANDOM-INTERRUPTS].
@@ -51,3 +55,5 @@ glob:NUMBER-NEEDED: The correct combination for the [~obj:COMBINATION-DIAL]. The
 ### SERIAL is 1
 
 ### deleted DIGGER puzzle?
+
+### Inturlajik Gaamz
