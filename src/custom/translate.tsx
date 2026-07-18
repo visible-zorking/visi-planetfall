@@ -7,9 +7,20 @@ export function TranslatePage()
 {
     const [ translationList, setTranslationList ] = useState(get_translation_list());
 
+    useEffect(() => {
+        function evhan_list(ev: Event) {
+            let list: string[] = (ev as CustomEvent).detail;
+            setTranslationList(list);
+        };
+        window.addEventListener('translation-list-update', evhan_list);
+        return () => {
+            window.removeEventListener('translation-list-update', evhan_list);
+        };
+    });
+    
     let counter = 0;
     let ells = translationList.map((text) => (
-        <p key={ counter++ }>{ text }</p>
+        <p key={ counter++ } className="Translation">{ text }</p>
     ));
     
     return (

@@ -40,7 +40,7 @@ export function update_translation_list(ev: Event)
     if (translation_list.length > MAX_LIST)
         translation_list = translation_list.slice(translation_list.length - MAX_LIST);
 
-    console.log('### list', translation_list);
+    window.dispatchEvent(new CustomEvent('translation-list-update', { detail: [ ...translation_list ] }));
 }
 
 export function get_translation_list(): string[]
