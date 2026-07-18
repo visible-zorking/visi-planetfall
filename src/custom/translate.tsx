@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 
 import { get_translation_list } from './modgame';
+import { Commentary } from '../visi/widgets';
 
 export function TranslatePage()
 {
@@ -27,6 +28,7 @@ export function TranslatePage()
         <div className="ScrollContent">
             <div className="TranslatePage">
                 <p>
+                    <Commentary topic={ 'PHONETIC' } />
                     This page shows a running translation of the Residan
                     text that you find on signs, computer displays, and
                     so forth.
