@@ -16,3 +16,8 @@ export const sourcefile_presentation_list: string[] = [
     'verbs.zil',
     'misc.zil',
 ];
+
+// The Planetfall translation table.
+const winany = (window as any);
+export const gamedat_translation_addrs = winany.gamedat_translation_addrs as Map<number, string>;
+

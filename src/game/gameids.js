@@ -6,6 +6,16 @@
    This is the only hand-written file in the src/games directory.
 */
 
+window.gamedat_translation_addrs = new Map();
+
+/* Build the map for the translation table. */
+(function() {
+    for (let tup of window.gamedat_translationtables) {
+        gamedat_translation_addrs.set(tup[0], tup[1]);
+    }
+})();
+
+
 /* Set up values that apply to the Z-machine generally.
  */
 function gamedat_ids_general(gamedat_ids)
