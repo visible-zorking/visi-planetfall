@@ -34734,43 +34734,43 @@ var bundle = (function (exports) {
       }
       return undefined;
   }
-  const winany = window;
-  const gamedat_ids = winany.gamedat_ids;
-  const sourcefile_capkey_map = winany.gamedat_sourcefile_capkeymap;
-  const gamedat_sourcefile_keymap = winany.gamedat_sourcefile_keymap;
-  const gamedat_sourcefile_revkeymap = winany.gamedat_sourcefile_revkeymap;
-  const gamedat_property_nums = winany.gamedat_property_nums;
-  const gamedat_property_names = winany.gamedat_property_names;
-  const gamedat_attribute_nums = winany.gamedat_attribute_nums;
-  const gamedat_attribute_names = winany.gamedat_attribute_names;
-  const gamedat_global_nums = winany.gamedat_global_nums;
-  const gamedat_global_names = winany.gamedat_global_names;
-  const gamedat_globals_sort_index = winany.gamedat_globals_sort_index;
-  const gamedat_globals_sort_alpha = winany.gamedat_globals_sort_alpha;
-  const gamedat_constant_names = winany.gamedat_constant_names;
-  const gamedat_object_ids = winany.gamedat_object_ids;
-  const gamedat_object_names = winany.gamedat_object_names;
-  const gamedat_object_global_ids = winany.gamedat_object_global_ids;
-  const gamedat_object_treesort = winany.gamedat_object_treesort;
-  const gamedat_string_map = winany.gamedat_string_map;
-  const gamedat_dictword_addrs = winany.gamedat_dictword_addrs;
-  const gamedat_dictword_adjs = winany.gamedat_dictword_adjs;
-  const gamedat_preposition_nums = winany.gamedat_preposition_nums;
-  const gamedat_grammar_verbnums = winany.gamedat_grammar_verbnums;
-  const gamedat_grammar_lines = winany.gamedat_grammar_lines;
-  const gamedat_grammar_line_addrs = winany.gamedat_grammar_line_addrs;
-  const gamedat_grammaractionlines = winany.gamedat_grammaractionlines;
-  const gamedat_routine_addrs = winany.gamedat_routine_addrs;
-  const gamedat_routine_names = winany.gamedat_routine_names;
-  const gamedat_table_addrs = winany.gamedat_table_addrs;
-  const gamedat_actions = winany.gamedat_actions;
-  const gamedat_sourcefiles = winany.gamedat_sourcefiles;
-  const gamedat_distances = winany.gamedat_distances;
-  const gamedat_commentary = winany.gamedat_commentary;
-  const gamedat_commentarymap = winany.gamedat_commentarymap;
+  const winany$1 = window;
+  const gamedat_ids = winany$1.gamedat_ids;
+  const sourcefile_capkey_map = winany$1.gamedat_sourcefile_capkeymap;
+  const gamedat_sourcefile_keymap = winany$1.gamedat_sourcefile_keymap;
+  const gamedat_sourcefile_revkeymap = winany$1.gamedat_sourcefile_revkeymap;
+  const gamedat_property_nums = winany$1.gamedat_property_nums;
+  const gamedat_property_names = winany$1.gamedat_property_names;
+  const gamedat_attribute_nums = winany$1.gamedat_attribute_nums;
+  const gamedat_attribute_names = winany$1.gamedat_attribute_names;
+  const gamedat_global_nums = winany$1.gamedat_global_nums;
+  const gamedat_global_names = winany$1.gamedat_global_names;
+  const gamedat_globals_sort_index = winany$1.gamedat_globals_sort_index;
+  const gamedat_globals_sort_alpha = winany$1.gamedat_globals_sort_alpha;
+  const gamedat_constant_names = winany$1.gamedat_constant_names;
+  const gamedat_object_ids = winany$1.gamedat_object_ids;
+  const gamedat_object_names = winany$1.gamedat_object_names;
+  const gamedat_object_global_ids = winany$1.gamedat_object_global_ids;
+  const gamedat_object_treesort = winany$1.gamedat_object_treesort;
+  const gamedat_string_map = winany$1.gamedat_string_map;
+  const gamedat_dictword_addrs = winany$1.gamedat_dictword_addrs;
+  const gamedat_dictword_adjs = winany$1.gamedat_dictword_adjs;
+  const gamedat_preposition_nums = winany$1.gamedat_preposition_nums;
+  const gamedat_grammar_verbnums = winany$1.gamedat_grammar_verbnums;
+  const gamedat_grammar_lines = winany$1.gamedat_grammar_lines;
+  const gamedat_grammar_line_addrs = winany$1.gamedat_grammar_line_addrs;
+  const gamedat_grammaractionlines = winany$1.gamedat_grammaractionlines;
+  const gamedat_routine_addrs = winany$1.gamedat_routine_addrs;
+  const gamedat_routine_names = winany$1.gamedat_routine_names;
+  const gamedat_table_addrs = winany$1.gamedat_table_addrs;
+  const gamedat_actions = winany$1.gamedat_actions;
+  const gamedat_sourcefiles = winany$1.gamedat_sourcefiles;
+  const gamedat_distances = winany$1.gamedat_distances;
+  const gamedat_commentary = winany$1.gamedat_commentary;
+  const gamedat_commentarymap = winany$1.gamedat_commentarymap;
   let assetdir = 'visiterp';
-  if ((_a = winany.visizork_options) === null || _a === void 0 ? void 0 : _a.assetdir) {
-      assetdir = (_b = winany.visizork_options) === null || _b === void 0 ? void 0 : _b.assetdir;
+  if ((_a = winany$1.visizork_options) === null || _a === void 0 ? void 0 : _a.assetdir) {
+      assetdir = (_b = winany$1.visizork_options) === null || _b === void 0 ? void 0 : _b.assetdir;
   }
   function getasset(filename) {
       if (!filename)
@@ -34869,6 +34869,25 @@ var bundle = (function (exports) {
       document.body.className = cla;
   }
 
+  /* Return the initial sourceloc to display. */
+  function sourceloc_start() {
+      return 'H:308:1:333:0'; // 'verbs.zil', lines 308-332
+  }
+  // Presentation order. Filenames must match game-info!
+  const sourcefile_presentation_list = [
+      'planetfall.zil',
+      'compone.zil',
+      'comptwo.zil',
+      'globals.zil',
+      'parser.zil',
+      'syntax.zil',
+      'verbs.zil',
+      'misc.zil',
+  ];
+  // The Planetfall translation table.
+  const winany = window;
+  const gamedat_translation_addrs = winany.gamedat_translation_addrs;
+
   function get_specifics(engine, state) {
       function get_cmove_table(addr) {
           let res = [];
@@ -34878,6 +34897,25 @@ var bundle = (function (exports) {
           return res;
       }
       return { get_cmove_table };
+  }
+  let translation_list = [];
+  const MAX_LIST = 4;
+  function update_translation_list(ev) {
+      let detail = ev.detail;
+      for (let addr of detail.strings) {
+          let text = gamedat_translation_addrs.get(addr);
+          if (!text)
+              continue;
+          if (translation_list.length && translation_list[translation_list.length - 1] == text)
+              continue;
+          translation_list.push(text);
+      }
+      if (translation_list.length > MAX_LIST)
+          translation_list = translation_list.slice(translation_list.length - MAX_LIST);
+      window.dispatchEvent(new CustomEvent('translation-list-update', { detail: [...translation_list] }));
+  }
+  function get_translation_list() {
+      return [...translation_list];
   }
   function show_commentary_hook(topic, engine) {
       return null;
@@ -35164,22 +35202,6 @@ var bundle = (function (exports) {
       }
       return Object.assign(Object.assign({}, report), { origglobals: origglobals, origprops: origprops, origattrs: origattrs, globalsupdate: globalsupdate });
   }
-
-  /* Return the initial sourceloc to display. */
-  function sourceloc_start() {
-      return 'H:308:1:333:0'; // 'verbs.zil', lines 308-332
-  }
-  // Presentation order. Filenames must match game-info!
-  const sourcefile_presentation_list = [
-      'planetfall.zil',
-      'compone.zil',
-      'comptwo.zil',
-      'globals.zil',
-      'parser.zil',
-      'syntax.zil',
-      'verbs.zil',
-      'misc.zil',
-  ];
 
   function new_sourcelocstate() {
       return { loc: sourceloc_start(), lochi: false };
@@ -37115,7 +37137,7 @@ var bundle = (function (exports) {
       }
       return (jsxRuntimeExports.jsx("div", { className: "ScrollContent", children: jsxRuntimeExports.jsxs("div", { className: "AboutPage", children: [jsxRuntimeExports.jsx("h2", { children: "What\u2019s going on?" }), jsxRuntimeExports.jsxs("p", { children: ["You are playing ", jsxRuntimeExports.jsx("i", { children: "Planetfall" }), ", the classic Infocom text adventure. And you are watching the Z-machine execute the game, live, as you play."] }), jsxRuntimeExports.jsxs("p", { children: ["(In case it\u2019s not obvious: ", jsxRuntimeExports.jsx("em", { children: "SPOILERS" }), " for ", jsxRuntimeExports.jsx("i", { children: "Planetfall" }), ". The source code gives away every secret and solution in the game. The whole point of this project is to demonstrate how Infocom games work!)"] }), jsxRuntimeExports.jsxs("p", { children: ["Type commands in the left pane. (If you\u2019re not familiar with parser games,", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://pr-if.org/doc/play-if-card/', text: 'here\u2019s a quick intro' }), ".) As the game responds, the panes on the right will display the current game state and the code that is executing."] }), jsxRuntimeExports.jsxs("p", { children: ["Look at the", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'objtree'), children: "World" }), ' ', "tab for a start. This shows every object and room in the game. You, the Adventurer, are in the topmost room:", ' ', jsxRuntimeExports.jsx("code", { children: curroom }), ". Listed with you are the objects you can see.", ' ', (firstobj ?
                               jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: ["(Try typing \u201C", jsxRuntimeExports.jsxs("code", { children: ["EXAMINE ", firstobj] }), "\u201D!) "] })
-                              : null), "Objects you pick up will be listed directly under the ", jsxRuntimeExports.jsx("code", { children: "ADVENTURER" }), "; they will move with you as part of your inventory."] }), jsxRuntimeExports.jsxs("p", { children: ["The other tabs display other aspects of the Z-machine.", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'activity'), children: "Activity" }), ' ', "shows the functions called in the most recent turn, and what they printed.", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'globals'), children: "State" }), ' ', "shows all the game\u2019s global variables.", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'timers'), children: "Timers" }), ' ', "shows the table of timed events.", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'grammar'), children: "Grammar" }), ' ', "shows the parse table.", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'map'), children: "Map" }), ' ', "is what you think."] }), jsxRuntimeExports.jsxs("p", { children: ["Click on any function, object, or variable to see its definition in the source code. Click on an object\u2019s", ' ', jsxRuntimeExports.jsx(ObjPageLink, { onum: gamedat_ids.ADVENTURER }), " button to see its current state and place in the world. (This will initially match the source code, but may change as you interact with the game.)"] }), jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx(Commentary, { topic: 'ABOUT' }), "Click on the green buttons to see commentary about", ' ', jsxRuntimeExports.jsx("i", { children: "Planetfall" }), "\u2019s implementation. Notes, trivia, whatever came into my head as I was building the Visible Zorker!"] }), jsxRuntimeExports.jsx("h2", { children: "The Feelies" }), jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx("i", { children: "Planetfall" }), " came with a delightful package of \u201CStellar Patrol\u201D material, but this was purely for game atmosphere. Nothing in the feelies is needed to play the game. If you want to take a look, the ", jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'feelies'), children: "Feelies" }), ' ', "tab contains links to these documents."] }), jsxRuntimeExports.jsx("h2", { children: "About this release" }), jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx("i", { children: "Planetfall" }), " was originally released in 1983. The version you see here dates from 1985. (The serial number \u201C851003\u201D shows the compile date.) As with Zork, it was built using a proprietary system called", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://blog.zarfhome.com/2019/04/what-is-zil-anyway', text: 'ZIL' }), ". (For \u201CZork Implementation Language\u201D.)"] }), jsxRuntimeExports.jsxs("p", { children: ["This 1985 release is the one most commonly seen today, because it was included in the \u201C", jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://archive.org/details/lost-treasures-of-infocom', text: 'Lost Treasures of Infocom' }), "\u201D collection and later collections. I have therefore selected it for this exhibit. That was not the final version, however. Infocom released a \u201CSolid Gold\u201D edition (with built-in Invisiclues) in 1988."] }), jsxRuntimeExports.jsx("p", { children: "(In fact, the Mac edition of LTOI had the Solid Gold release, while the PC edition had this one. I went with this one.)" }), jsxRuntimeExports.jsx("h2", { children: "Sources and acknowledgements" }), jsxRuntimeExports.jsxs("p", { children: ["The game\u2019s source code was first", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://github.com/historicalsource/planetfall', text: 'publicly released' }), ' ', "by Jason Scott in April 2019. I then combed through all known versions and posted my", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://eblong.com/infocom/', text: 'Obsessively Complete Infocom Catalog' }), ", which now includes this Visible Zorker exhibition."] }), jsxRuntimeExports.jsxs("p", { children: ["The Visible Zorker is built on a seriously customized version of the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://github.com/curiousdannii/parchment', text: 'Parchment' }), " Z-machine interpreter by Marnanel Thurman, Atul Varma, and Dannii Willis. You can find this, and the rest of the Visible Zorker machinery, on", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://github.com/visible-zorking/visi-zork3', text: 'Github' }), "."] }), jsxRuntimeExports.jsxs("p", { children: ["I used TXD from the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://ifarchive.org/indexes/if-archive/infocom/tools/ztools/', text: 'ZTools' }), ' ', "package to analyze the game file. That process was invaluably aided by the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://ifarchive.org/indexes/if-archive/infocom/tools/reform/', text: 'Infocom analysis work' }), ' ', "done in 2007 by Allen Garvin, Ben Rudiak-Gould, and Ethan Dicks."] }), jsxRuntimeExports.jsx("p", { children: "The fonts used are Courier Prime, Lato, and Libre Baskerville. The header background is copied from Infocom\u2019s Zork hint maps." }), jsxRuntimeExports.jsxs("p", { children: ["Feelie scans courtesy of the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://infodoc.plover.net/manuals/', text: 'InfoDoc Project' }), ' ', "and my own collection. See also the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://archive.org/details/Infocom_Planetfall_Apple', text: 'Internet Archive' }), "."] }), jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx("i", { children: "Planetfall" }), " itself was originally written by Steve Meretzky. It is copyright 1983 (etc) by Infocom, then Activision, then renamed to Mediagenic, then Bobby Kotick bought it and renamed it Activision, then Vivendi bought it and merged it with Blizzard, then Microsoft consumed the lot."] }), jsxRuntimeExports.jsxs("p", { children: ["Thus, the ", jsxRuntimeExports.jsx("i", { children: "Planetfall" }), " source code is copyright 2025 by Microsoft. Microsoft has not released this game as open source, but I\u2019m going at it regardless."] }), jsxRuntimeExports.jsxs("p", { children: ["Aside from the above, the Visible Zorker is copyright 2025-2026 by Andrew Plotkin. MIT license;", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://github.com/visible-zorking/visi-starcross', text: 'Github repo' }), "."] }), jsxRuntimeExports.jsx("h2", { children: "Patreon supporters" }), jsxRuntimeExports.jsxs("ul", { className: "PatreonList", children: [jsxRuntimeExports.jsxs("li", { children: [jsxRuntimeExports.jsx("b", { children: "Fancy contributors:" }), ' ', jsxRuntimeExports.jsx(NameList, { level: "Fancy Contributor" })] }), jsxRuntimeExports.jsxs("li", { children: [jsxRuntimeExports.jsx("b", { children: "Contributors:" }), ' ', jsxRuntimeExports.jsx(NameList, { level: "Contributor" })] }), jsxRuntimeExports.jsxs("li", { className: "Small", children: [jsxRuntimeExports.jsx("b", { children: "Participants:" }), ' ', jsxRuntimeExports.jsx(NameList, { level: "Participant" })] }), jsxRuntimeExports.jsxs("li", { className: "Smaller", children: [jsxRuntimeExports.jsx("b", { children: "Supporters:" }), ' ', jsxRuntimeExports.jsx(NameList, { level: "Supporter" })] })] }), jsxRuntimeExports.jsx("hr", {}), jsxRuntimeExports.jsxs("p", { children: ["Last updated ", jsxRuntimeExports.jsx("b", { children: lastupdate }), ". This exhibit is hosted by the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://eblong.com/infocom/', text: 'Obsessively Complete Infocom Catalog' }), "."] })] }) }));
+                              : null), "Objects you pick up will be listed directly under the ", jsxRuntimeExports.jsx("code", { children: "ADVENTURER" }), "; they will move with you as part of your inventory."] }), jsxRuntimeExports.jsxs("p", { children: ["The other tabs display other aspects of the Z-machine.", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'activity'), children: "Activity" }), ' ', "shows the functions called in the most recent turn, and what they printed.", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'globals'), children: "State" }), ' ', "shows all the game\u2019s global variables.", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'timers'), children: "Timers" }), ' ', "shows the table of timed events.", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'grammar'), children: "Grammar" }), ' ', "shows the parse table.", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'map'), children: "Map" }), ' ', "is what you think."] }), jsxRuntimeExports.jsxs("p", { children: ["The", ' ', jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'translate'), children: "Translation" }), ' ', "tab displays a running translation of the Residan text that you find on signs, computer displays, and so forth. This language is not meant to be a puzzle \u2014 at least not a serious puzzle. It\u2019s English, but with a phonetic spelling system to give the sense of an archaic or divergent culture. It\u2019s very atmospheric. It\u2019s also annoying as heck after a while, so I have provided a magic spelling corrector. You\u2019re welcome."] }), jsxRuntimeExports.jsxs("p", { children: ["Click on any function, object, or variable to see its definition in the source code. Click on an object\u2019s", ' ', jsxRuntimeExports.jsx(ObjPageLink, { onum: gamedat_ids.ADVENTURER }), " button to see its current state and place in the world. (This will initially match the source code, but may change as you interact with the game.)"] }), jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx(Commentary, { topic: 'ABOUT' }), "Click on the green buttons to see commentary about", ' ', jsxRuntimeExports.jsx("i", { children: "Planetfall" }), "\u2019s implementation. Notes, trivia, whatever came into my head as I was building the Visible Zorker!"] }), jsxRuntimeExports.jsx("h2", { children: "The Feelies" }), jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx("i", { children: "Planetfall" }), " came with a delightful package of \u201CStellar Patrol\u201D material, but this was purely for game atmosphere. Nothing in the feelies is needed to play the game. If you want to take a look, the ", jsxRuntimeExports.jsx("a", { className: "Internal", href: "#", onClick: (ev) => evhan_click_tab(ev, 'feelies'), children: "Feelies" }), ' ', "tab contains links to these documents."] }), jsxRuntimeExports.jsx("h2", { children: "About this release" }), jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx("i", { children: "Planetfall" }), " was originally released in 1983. The version you see here dates from 1985. (The serial number \u201C851003\u201D shows the compile date.) As with Zork, it was built using a proprietary system called", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://blog.zarfhome.com/2019/04/what-is-zil-anyway', text: 'ZIL' }), ". (For \u201CZork Implementation Language\u201D.)"] }), jsxRuntimeExports.jsxs("p", { children: ["This 1985 release is the one most commonly seen today, because it was included in the \u201C", jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://archive.org/details/lost-treasures-of-infocom', text: 'Lost Treasures of Infocom' }), "\u201D collection and later collections. I have therefore selected it for this exhibit. That was not the final version, however. Infocom released a \u201CSolid Gold\u201D edition (with built-in Invisiclues) in 1988."] }), jsxRuntimeExports.jsx("p", { children: "(In fact, the Mac edition of LTOI had the Solid Gold release, while the PC edition had this one. I went with this one.)" }), jsxRuntimeExports.jsx("h2", { children: "Sources and acknowledgements" }), jsxRuntimeExports.jsxs("p", { children: ["The game\u2019s source code was first", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://github.com/historicalsource/planetfall', text: 'publicly released' }), ' ', "by Jason Scott in April 2019. I then combed through all known versions and posted my", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://eblong.com/infocom/', text: 'Obsessively Complete Infocom Catalog' }), ", which now includes this Visible Zorker exhibition."] }), jsxRuntimeExports.jsxs("p", { children: ["The Visible Zorker is built on a seriously customized version of the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://github.com/curiousdannii/parchment', text: 'Parchment' }), " Z-machine interpreter by Marnanel Thurman, Atul Varma, and Dannii Willis. You can find this, and the rest of the Visible Zorker machinery, on", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://github.com/visible-zorking/visi-zork3', text: 'Github' }), "."] }), jsxRuntimeExports.jsxs("p", { children: ["I used TXD from the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://ifarchive.org/indexes/if-archive/infocom/tools/ztools/', text: 'ZTools' }), ' ', "package to analyze the game file. That process was invaluably aided by the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://ifarchive.org/indexes/if-archive/infocom/tools/reform/', text: 'Infocom analysis work' }), ' ', "done in 2007 by Allen Garvin, Ben Rudiak-Gould, and Ethan Dicks."] }), jsxRuntimeExports.jsx("p", { children: "The fonts used are Courier Prime, Lato, and Libre Baskerville. The header background is copied from Infocom\u2019s Zork hint maps." }), jsxRuntimeExports.jsxs("p", { children: ["Feelie scans courtesy of the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://infodoc.plover.net/manuals/', text: 'InfoDoc Project' }), ' ', "and my own collection. See also the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://archive.org/details/Infocom_Planetfall_Apple', text: 'Internet Archive' }), "."] }), jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx("i", { children: "Planetfall" }), " itself was originally written by Steve Meretzky. It is copyright 1983 (etc) by Infocom, then Activision, then renamed to Mediagenic, then Bobby Kotick bought it and renamed it Activision, then Vivendi bought it and merged it with Blizzard, then Microsoft consumed the lot."] }), jsxRuntimeExports.jsxs("p", { children: ["Thus, the ", jsxRuntimeExports.jsx("i", { children: "Planetfall" }), " source code is copyright 2025 by Microsoft. Microsoft has not released this game as open source, but I\u2019m going at it regardless."] }), jsxRuntimeExports.jsxs("p", { children: ["Aside from the above, the Visible Zorker is copyright 2025-2026 by Andrew Plotkin. MIT license;", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://github.com/visible-zorking/visi-starcross', text: 'Github repo' }), "."] }), jsxRuntimeExports.jsx("h2", { children: "Patreon supporters" }), jsxRuntimeExports.jsxs("ul", { className: "PatreonList", children: [jsxRuntimeExports.jsxs("li", { children: [jsxRuntimeExports.jsx("b", { children: "Fancy contributors:" }), ' ', jsxRuntimeExports.jsx(NameList, { level: "Fancy Contributor" })] }), jsxRuntimeExports.jsxs("li", { children: [jsxRuntimeExports.jsx("b", { children: "Contributors:" }), ' ', jsxRuntimeExports.jsx(NameList, { level: "Contributor" })] }), jsxRuntimeExports.jsxs("li", { className: "Small", children: [jsxRuntimeExports.jsx("b", { children: "Participants:" }), ' ', jsxRuntimeExports.jsx(NameList, { level: "Participant" })] }), jsxRuntimeExports.jsxs("li", { className: "Smaller", children: [jsxRuntimeExports.jsx("b", { children: "Supporters:" }), ' ', jsxRuntimeExports.jsx(NameList, { level: "Supporter" })] })] }), jsxRuntimeExports.jsx("hr", {}), jsxRuntimeExports.jsxs("p", { children: ["Last updated ", jsxRuntimeExports.jsx("b", { children: lastupdate }), ". This exhibit is hosted by the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://eblong.com/infocom/', text: 'Obsessively Complete Infocom Catalog' }), "."] })] }) }));
   }
   function ExtWebLink({ url, text }) {
       return (jsxRuntimeExports.jsx("a", { className: "External", target: "_blank", href: url, children: text }));
@@ -37139,6 +37161,23 @@ var bundle = (function (exports) {
       return (jsxRuntimeExports.jsx("div", { className: "ScrollContent", children: jsxRuntimeExports.jsxs("div", { className: "FeeliesPage", children: [jsxRuntimeExports.jsx("h2", { children: "Life in the Stellar Patrol" }), jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx("i", { children: "Planetfall" }), " came with a packet of over-the-top recruiting material for the Stellar Patrol. However, nothing in the package was intended as copy protection or even critical background material. The opening paragraph of the game tells you everything you need to know."] }), jsxRuntimeExports.jsxs("p", { children: ["To browse a scanned version of the manual and feelies, visit the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://infodoc.plover.net/manuals/planetfa.pdf', text: 'InfoDoc Project' }), ". For high-resolution scans, visit the", ' ', jsxRuntimeExports.jsx(ExtWebLink, { url: 'https://archive.org/details/Infocom_Planetfall_Apple', text: 'Internet Archive' }), "."] }), jsxRuntimeExports.jsx("h2", { children: "Special commands" }), jsxRuntimeExports.jsxs("p", { children: ["The only special feature of ", jsxRuntimeExports.jsx("i", { children: "Planetfall" }), "\u2019s commands is that time is measured in \u201Cmillichrons\u201D instead of turns. Different actions take different amounts of time. A simple ", jsxRuntimeExports.jsx("code", { children: "GET" }), " might take only seven millichrons (about a minute); walking down a long hallway might take 150 or more. You will require regular food and sleep, so try not to waste time."] }), jsxRuntimeExports.jsx("p", { children: "The status line displays the current time of day, from 0000 (midnight) to 5000 (noon) to 9999 (about to be midnight again). Don\u2019t lose your chronometer!" })] }) }));
   }
 
+  function TranslatePage() {
+      const [translationList, setTranslationList] = reactExports.useState(get_translation_list());
+      reactExports.useEffect(() => {
+          function evhan_list(ev) {
+              let list = ev.detail;
+              setTranslationList(list);
+          }
+          window.addEventListener('translation-list-update', evhan_list);
+          return () => {
+              window.removeEventListener('translation-list-update', evhan_list);
+          };
+      });
+      let counter = 0;
+      let ells = translationList.map((text) => (jsxRuntimeExports.jsx("p", { className: "Translation", children: text }, counter++)));
+      return (jsxRuntimeExports.jsx("div", { className: "ScrollContent", children: jsxRuntimeExports.jsxs("div", { className: "TranslatePage", children: [jsxRuntimeExports.jsxs("p", { children: ["This page shows a running translation of the Residan text that you find on signs, computer displays, and so forth. (It\u2019s not that it\u2019s hard to read; it\u2019s just ", jsxRuntimeExports.jsx("em", { children: "annoying" }), ".)"] }), jsxRuntimeExports.jsx("hr", {}), ells] }) }));
+  }
+
   const tab_list = [
       ['activity', 'Activity'],
       ['objtree', 'World'],
@@ -37147,6 +37186,7 @@ var bundle = (function (exports) {
       ['timers', 'Timers'],
       ['grammar', 'Grammar'],
       ['filelist', 'Files'],
+      ['translate', 'Translation'],
       ['feelies', 'Feelies'],
       ['about', '?'],
   ];
@@ -37203,6 +37243,9 @@ var bundle = (function (exports) {
               break;
           case 'feelies':
               tabcontent = jsxRuntimeExports.jsx(FeeliesPage, {});
+              break;
+          case 'translate':
+              tabcontent = jsxRuntimeExports.jsx(TranslatePage, {});
               break;
           default:
               tabcontent = jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [rctx.tab, " not implemented"] });
@@ -37300,6 +37343,7 @@ var bundle = (function (exports) {
                       setLoc(hereobj.sourceloc, false);
                   }
               }
+              window.dispatchEvent(new CustomEvent('zstate-update', { detail: newstate }));
           }
           window.addEventListener('zmachine-update', evhan_zstate);
           return () => {
@@ -37459,6 +37503,7 @@ var bundle = (function (exports) {
           reportspecs: get_specifics,
       };
       set_app_context(engine, initprefs, appctx);
+      window.addEventListener('zstate-update', update_translation_list);
       const appel = document.getElementById('appbody');
       let root = clientExports.createRoot(appel);
       if (root)
