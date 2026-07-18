@@ -43,6 +43,9 @@ glob:SICKNESS-WARNING-FLAG: Indicates whether your [~glob:SICKNESS-LEVEL] is abo
 PHONETIC: The printed language uses a phonetic spelling system. Long vowels are always doubled; “X” means “th”; “C” means “ch”; and so on. There are no silent letters.
 	Amusingly, the Residan *spoken* language remains identical to Galalingua. (Floyd doesn’t seem to have an accent. Nor do [recorded announcements|~rtn:I-ANNOUNCEMENT].) This is somewhat unrealistic; real languages tend to change pronunciation faster than spelling, which is why the tough coughs as he ploughs dough.
 
+rtn:PLAQUE-PSEUDO: See [notes on foonetik speleeng|PHONETIC].
+	The Translation tab lets you see this text in regular English. I mean Galalingua.
+
 
 glob:DIAL-NUMBER: The current setting of the [~obj:COMBINATION-DIAL].
 
