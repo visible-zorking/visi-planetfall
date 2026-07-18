@@ -43,6 +43,11 @@ export function update_translation_list(ev: Event)
     console.log('### list', translation_list);
 }
 
+export function get_translation_list(): string[]
+{
+    return [ ...translation_list ];
+}
+
 export function show_commentary_hook(topic: string, engine: GnustoEngine): string|null
 {
     return null;

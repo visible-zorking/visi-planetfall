@@ -1,8 +1,17 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 
+import { get_translation_list } from './modgame';
 
 export function TranslatePage()
 {
+    const [ translationList, setTranslationList ] = useState(get_translation_list());
+
+    let counter = 0;
+    let ells = translationList.map((text) => (
+        <p key={ counter++ }>{ text }</p>
+    ));
+    
     return (
         <div className="ScrollContent">
             <div className="TranslatePage">
@@ -14,6 +23,7 @@ export function TranslatePage()
                     just <em>annoying</em>.)
                 </p>
                 <hr/>
+                { ells }
             </div>
         </div>
     );
