@@ -36,48 +36,47 @@ FAEA: "COOLANTS 1 - 4", "CATALYSTS 1 - 3", "BASE", "ACID".
 
 11ED6: "Shuttle Platform -- Lawanda Station."
 
-12342: One light, blinking quickly, catches your eye. It reads "Surkit Boord Faalyur. WORNEENG: xis boord kuntroolz xe diskriminaashun surkits."
+12342: "Circuit Board Failure. WARNING: this board controls the discrimination circuits."
 
-125FD: One blinking light says "Kors diivurjins minimiizeeng."
+125FD: "Course divergence minimizing."
 
-12627: Two of these lights are blinking. The first one reads "Bedistur Faalyur!" The other light reads "Kritikul diivurjins frum pland kors."
+12627: "Bedistor Failure!" "Critical divergence from planned course."
 
-12D17: The machine hums quietly, and the screen lights up with the phrase "Pleez insurt spuul."
+12D17: "Please insert spool."
 
-13878: The printout is hundreds of pages long. It would take many chrons to read it all. The last page looks pretty interesting, though:
-	"Daalee Statis Reeport:
-	PREELIMINEREE REESURC:  100.000%
-	INTURMEEDEEIT REESURC:  100.000%
-	FIINUL REESURC:         100.000%
-	DRUG PROODUKSHUN:       100.000%
-	DRUG TESTEENG:           99.985%
-	Proojektid tiim tuu reeviivul prooseedzur:  0 daaz, 0.8 kronz
-	*** ALURT! ALURT! ***
-	Malfunkshun in Sekshun 384! Sumuneeng reepaar roobot."
-	The printout ends at this point.
+13878: "Daily Status Report:
+	PRELIMINARY RESEARCH: 100.000%
+	INTERMEDIATE RESEARCH: 100.000%
+	FINAL RESEARCH: 100.000%
+	DRUG PRODUCTION: 100.000%
+	DRUG TESTING: 99.985%
+	Projected time to revival procedure: 0 days, 0.8 chrons
+	*** ALERT! ALERT! ***
+	Malfunction in Section 384! Summoning repair robot."
 
-13B7B: Week uv 14-Juun--2882. Kombinaashun tuu Konfurins Ruum:
+13B7B: Week of 14-June-2882. Combination to Conference Room:
 
-148BA: door to the west is labelled "Biioo Lab." You realize with shock and horror that the only way out is through the mutant-infested Bio Lab.
-	On the wall are three buttons: a white button labelled "Lab Liits On", a black button labelled "Lab Liits Of", and a red button labelled "Eemurjensee Sistum."
+148BA: "Bio Lab."
+	"Lab Lights On", "Lab Lights Off", "Emergency System."
 
-161A8: A sign flashes "Inkorekt awtharazaashun kard...akses deeniid."
+161A8: "Incorrect authorization card... access denied."
 
-175C6: This is a small room whose far wall is covered with many small cubbyholes, all empty. The left wall is covered with an enormous map, labelled "Kalamontee Kompleks", showing two installations connected by a long hallway. Near the upper part of this map is a red arrow saying "Yuu ar heer." The right wall is covered with a similar map, labelled "Lawanda Kompleks", showing two installations, one apparently buried deep underground.
+175C6: "Kalamontee Complex," "You are here."
+	"Lawanda Complex."
 
-17742: The card is embossed "upur elivaatur akses kard."
+17742: "upper elevator access card"
 
-17780: The card is embossed "loowur elivaatur akses kard."
+17780: "lower elevator access card"
 
-18058: "Tuu enee ship uv xe Sekund Galaktik Yuunyun: Planitwiid plaag haz struk entiir popyuulaashun. Tiim iz kritikul. Eemurjensee asistins reekwestid. <reepeet mesij>"
+18058: "To any ship of the Second Galactic Union: Planetwide plague has struck entire population. Time is critical. Emergency assistance requested. <repeat message>"
 
-183F4: The spool is labelled "Simptumz uv Xe Dizeez."
+183F4: "Symptoms of The Disease"
 
-1876C: The spool is labelled "Helikoptur Opuraateeng Manyuuwul."
+1876C: "Helicopter Operating Manual"
 
-188F2: "Foor moor deetaald infoormaashun on xis tapik, konsult xe liibrereein foor xe aproopreeit spuulz. Tiip zeeroo tuu goo tuu aa hiiyur levul."
+188F2: "For more detailed information on this topic, consult the librarian for the appropriate spools. Type zero to go to a higher level."
 
-18952: "Yuu hav reect xe loowist levul uv xe liibreree indeks. Pleez tiip zeeroo tuu goo tuu aa hiiyur levul. If yuu reekwiir asistins, kawl xe liibrereein."
+18952: "You have reached the lowest level of the library index. Please type zero to go to a higher level. If you require assistance, call the librarian."
 
 189BA: 1. Histooree
 	    2. Kulcur
