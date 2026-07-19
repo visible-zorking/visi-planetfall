@@ -49,6 +49,7 @@ rtn:PLAQUE-PSEUDO: See [notes on foonetik speleeng|PHONETIC].
 glob:MAIN-MENU: When *Planetfall* was first released in 1983, it was billed as “INTERLOGIC Science Fiction”, in keeping with Infocom’s other games. The “Interlogic” trademark was deleted in this 1985 release. But the in-game library text was never updated to match.
 
 glob:34-TEXT: A reference to *Suspended* as in-game history. (As distinct from the reference in “[Starkros and Suspendid|glob:63-TEXT]”, which is not exactly in-character.)
+	Note that Floyd is a [B-19|~src:COMPONE-2153].
 
 glob:51-TEXT: The “lab leak” story is a lot more fraught than it came off as in the 1980s.
 
