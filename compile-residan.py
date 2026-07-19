@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 
 import json
+import re
 
 entries = []
+
+pat = re.compile('^([0-9A-F]+):([A-Z0-9-]+:)?(.*)$')
 
 def parse(infl):
     addr = None
@@ -17,10 +20,15 @@ def parse(infl):
                 textls = None
         else:
             if not addr:
-                addr, _, text = ln.partition(':')
-                if not text:
-                    raise Exception('missing text')
+                match = pat.match(ln)
+                if not match:
+                    raise Exception('not a definition line')
+                addr = match.group(1)
+                globname = match.group(2)
+                text = match.group(3)
                 addr = int(addr, 16)
+                if globname:
+                    globname = globname.replace(':', '')
                 text = text.strip()
                 textls = [ text ]
             else:
