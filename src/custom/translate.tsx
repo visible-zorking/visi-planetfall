@@ -22,7 +22,6 @@ export function TranslatePage()
 
     useLayoutEffect(() => {
         if (noderef.current) {
-            console.log('### downscroll', noderef.current);
             let nod = noderef.current;
             let nodparent = noderef.current.parentElement;
             if (nod && nodparent)

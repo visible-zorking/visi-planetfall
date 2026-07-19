@@ -28,24 +28,29 @@ export function update_translation_list(ev: Event)
 {
     let detail: ZState = (ev as CustomEvent).detail;
 
+    let newentries = [];
+    
     for (let addr of detail.strings) {
         let text = gamedat_translation_addrs.get(addr);
         if (!text)
             continue;
         if (translation_list.length && translation_list[translation_list.length-1] == text) 
             continue;
-        translation_list.push(text);
+        newentries.push(text);
     }
+
+    if (newentries.length)
+        translation_list = [ ...translation_list, ...newentries ];
 
     if (translation_list.length > MAX_LIST)
         translation_list = translation_list.slice(translation_list.length - MAX_LIST);
 
-    window.dispatchEvent(new CustomEvent('translation-list-update', { detail: [ ...translation_list ] }));
+    window.dispatchEvent(new CustomEvent('translation-list-update', { detail: translation_list }));
 }
 
 export function get_translation_list(): string[]
 {
-    return [ ...translation_list ];
+    return translation_list;
 }
 
 export function show_commentary_hook(topic: string, engine: GnustoEngine): string|null
