@@ -1,7 +1,7 @@
 import { unpack_address } from '../visi/gametypes';
 import { GnustoEngine, ZState } from '../visi/zstate';
 import { gamedat_routine_names, gamedat_global_names, gamedat_string_map } from '../visi/gamedat';
-import { gamedat_translation_addrs } from './info';
+import { TranslationEntry, gamedat_translation_addrs } from './info';
 
 export type SpecificPlanetfall = {
     get_cmove_table: (addr: number) => number[];
@@ -21,7 +21,7 @@ export function get_specifics(engine: GnustoEngine, state: ZState): SpecificPlan
     return { get_cmove_table };
 }
 
-let translation_list: string[] = [];
+let translation_list: TranslationEntry[] = [];
 const MAX_LIST = 40;
 
 export function update_translation_list(ev: Event)
@@ -31,12 +31,12 @@ export function update_translation_list(ev: Event)
     let newentries = [];
     
     for (let addr of detail.strings) {
-        let text = gamedat_translation_addrs.get(addr);
-        if (!text)
+        let ent = gamedat_translation_addrs.get(addr);
+        if (!ent)
             continue;
-        if (translation_list.length && translation_list[translation_list.length-1] == text) 
+        if (translation_list.length && translation_list[translation_list.length-1].text == ent.text) 
             continue;
-        newentries.push(text);
+        newentries.push(ent);
     }
 
     if (newentries.length)
@@ -48,7 +48,7 @@ export function update_translation_list(ev: Event)
     window.dispatchEvent(new CustomEvent('translation-list-update', { detail: translation_list }));
 }
 
-export function get_translation_list(): string[]
+export function get_translation_list(): TranslationEntry[]
 {
     return translation_list;
 }

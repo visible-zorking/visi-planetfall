@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect, useLayoutEffect, useRef } from 'react';
 
+import { TranslationEntry } from './info';
 import { get_translation_list } from './modgame';
 import { Commentary } from '../visi/widgets';
 
@@ -11,7 +12,7 @@ export function TranslatePage()
 
     useEffect(() => {
         function evhan_list(ev: Event) {
-            let list: string[] = (ev as CustomEvent).detail;
+            let list: TranslationEntry[] = (ev as CustomEvent).detail;
             setTranslationList(list);
         };
         window.addEventListener('translation-list-update', evhan_list);
@@ -30,11 +31,9 @@ export function TranslatePage()
     }, [translationList]);
     
     let counter = 0;
-    let ells = translationList.map((text) => (
-        <p key={ counter++ } className="Translation">{ text }</p>
+    let ells = translationList.map((ent) => (
+        <p key={ counter++ } className="Translation">{ ent.text }</p>
     ));
-    
-    //### figure out how to scroll down
     
     return (
         <div className="ScrollContent" ref={ noderef }>

@@ -18,6 +18,12 @@ export const sourcefile_presentation_list: string[] = [
 ];
 
 // The Planetfall translation table.
+
+export type TranslationEntry = {
+    text: string,
+    glob?: string,
+};
+
 const winany = (window as any);
-export const gamedat_translation_addrs = winany.gamedat_translation_addrs as Map<number, string>;
+export const gamedat_translation_addrs = winany.gamedat_translation_addrs as Map<number, TranslationEntry>;
 
