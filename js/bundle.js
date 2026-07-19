@@ -34884,7 +34884,6 @@ var bundle = (function (exports) {
       'verbs.zil',
       'misc.zil',
   ];
-  // The Planetfall translation table.
   const winany = window;
   const gamedat_translation_addrs = winany.gamedat_translation_addrs;
 
@@ -34904,12 +34903,12 @@ var bundle = (function (exports) {
       let detail = ev.detail;
       let newentries = [];
       for (let addr of detail.strings) {
-          let text = gamedat_translation_addrs.get(addr);
-          if (!text)
+          let ent = gamedat_translation_addrs.get(addr);
+          if (!ent)
               continue;
-          if (translation_list.length && translation_list[translation_list.length - 1] == text)
+          if (translation_list.length && translation_list[translation_list.length - 1].text == ent.text)
               continue;
-          newentries.push(text);
+          newentries.push(ent);
       }
       if (newentries.length)
           translation_list = [...translation_list, ...newentries];
@@ -37186,8 +37185,13 @@ var bundle = (function (exports) {
           }
       }, [translationList]);
       let counter = 0;
-      let ells = translationList.map((text) => (jsxRuntimeExports.jsx("p", { className: "Translation", children: text }, counter++)));
-      //### figure out how to scroll down
+      let ells = translationList.map((ent) => {
+          let comel = null;
+          if (ent.glob && check_commentary(ent.glob, 'GLOB')) {
+              comel = (jsxRuntimeExports.jsx(Commentary, { topic: 'GLOB:' + ent.glob }));
+          }
+          return (jsxRuntimeExports.jsxs("p", { className: "Translation", children: [comel, ent.text] }, counter++));
+      });
       return (jsxRuntimeExports.jsx("div", { className: "ScrollContent", ref: noderef, children: jsxRuntimeExports.jsxs("div", { className: "TranslatePage", children: [jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx(Commentary, { topic: 'PHONETIC' }), "This page shows a running translation of the Residan text that you find on signs, computer displays, and so forth. (It\u2019s not that it\u2019s hard to read; it\u2019s just ", jsxRuntimeExports.jsx("em", { children: "annoying" }), ".)"] }), jsxRuntimeExports.jsx("hr", {}), ells, jsxRuntimeExports.jsx("p", { children: "\u00A0" })] }) }));
   }
   const useRefDiv$1 = () => reactExports.useRef(null);
