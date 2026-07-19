@@ -4,6 +4,7 @@ import { useState, useEffect, useLayoutEffect, useRef } from 'react';
 import { TranslationEntry } from './info';
 import { get_translation_list } from './modgame';
 import { Commentary } from '../visi/widgets';
+import { check_commentary } from '../visi/combuild';
 
 export function TranslatePage()
 {
@@ -31,9 +32,20 @@ export function TranslatePage()
     }, [translationList]);
     
     let counter = 0;
-    let ells = translationList.map((ent) => (
-        <p key={ counter++ } className="Translation">{ ent.text }</p>
-    ));
+    let ells = translationList.map((ent) => {
+        let comel = null;
+        if (ent.glob && check_commentary(ent.glob, 'GLOB')) {
+            comel = (
+                <Commentary topic={ 'GLOB:'+ent.glob } />
+            );
+        }
+        return (
+            <p key={ counter++ } className="Translation">
+                { comel }
+                { ent.text }
+            </p>
+        );
+    });
     
     return (
         <div className="ScrollContent" ref={ noderef }>
