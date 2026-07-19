@@ -49,6 +49,7 @@ export function TranslatePage()
                 </p>
                 <hr/>
                 { ells }
+                <p>&nbsp;</p>
             </div>
         </div>
     );
