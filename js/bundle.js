@@ -34899,23 +34899,26 @@ var bundle = (function (exports) {
       return { get_cmove_table };
   }
   let translation_list = [];
-  const MAX_LIST = 4;
+  const MAX_LIST = 40;
   function update_translation_list(ev) {
       let detail = ev.detail;
+      let newentries = [];
       for (let addr of detail.strings) {
           let text = gamedat_translation_addrs.get(addr);
           if (!text)
               continue;
           if (translation_list.length && translation_list[translation_list.length - 1] == text)
               continue;
-          translation_list.push(text);
+          newentries.push(text);
       }
+      if (newentries.length)
+          translation_list = [...translation_list, ...newentries];
       if (translation_list.length > MAX_LIST)
           translation_list = translation_list.slice(translation_list.length - MAX_LIST);
-      window.dispatchEvent(new CustomEvent('translation-list-update', { detail: [...translation_list] }));
+      window.dispatchEvent(new CustomEvent('translation-list-update', { detail: translation_list }));
   }
   function get_translation_list() {
-      return [...translation_list];
+      return translation_list;
   }
   function show_commentary_hook(topic, engine) {
       return null;
@@ -35314,7 +35317,7 @@ var bundle = (function (exports) {
   }
 
   function SourceView() {
-      let noderef = useRefDiv$1();
+      let noderef = useRefDiv$2();
       let rctx = reactExports.useContext(ReactCtx);
       let zstate = rctx.zstate;
       let atstart = (rctx.sourcelocpos == 0);
@@ -35560,7 +35563,7 @@ var bundle = (function (exports) {
           scrollel.scrollTop = linel.offsetTop - Math.floor(scrollel.offsetHeight * heightratio);
       }
   }
-  const useRefDiv$1 = () => reactExports.useRef(null);
+  const useRefDiv$2 = () => reactExports.useRef(null);
 
   /* The "(i)" button which displays an object detail page.
   */
@@ -37095,7 +37098,7 @@ var bundle = (function (exports) {
   function AboutPage() {
       let rctx = reactExports.useContext(ReactCtx);
       let zstate = rctx.zstate;
-      let lastupdate = 'July 18, 2026';
+      let lastupdate = 'July 19, 2026';
       let curroom = '???';
       let firstobj = '';
       let map = new Map();
@@ -37163,6 +37166,7 @@ var bundle = (function (exports) {
 
   function TranslatePage() {
       const [translationList, setTranslationList] = reactExports.useState(get_translation_list());
+      let noderef = useRefDiv$1();
       reactExports.useEffect(() => {
           function evhan_list(ev) {
               let list = ev.detail;
@@ -37173,10 +37177,20 @@ var bundle = (function (exports) {
               window.removeEventListener('translation-list-update', evhan_list);
           };
       });
+      reactExports.useLayoutEffect(() => {
+          if (noderef.current) {
+              let nod = noderef.current;
+              let nodparent = noderef.current.parentElement;
+              if (nod && nodparent)
+                  nod.scrollTop = nod.scrollHeight - nodparent.scrollHeight;
+          }
+      }, [translationList]);
       let counter = 0;
       let ells = translationList.map((text) => (jsxRuntimeExports.jsx("p", { className: "Translation", children: text }, counter++)));
-      return (jsxRuntimeExports.jsx("div", { className: "ScrollContent", children: jsxRuntimeExports.jsxs("div", { className: "TranslatePage", children: [jsxRuntimeExports.jsxs("p", { children: ["This page shows a running translation of the Residan text that you find on signs, computer displays, and so forth. (It\u2019s not that it\u2019s hard to read; it\u2019s just ", jsxRuntimeExports.jsx("em", { children: "annoying" }), ".)"] }), jsxRuntimeExports.jsx("hr", {}), ells] }) }));
+      //### figure out how to scroll down
+      return (jsxRuntimeExports.jsx("div", { className: "ScrollContent", ref: noderef, children: jsxRuntimeExports.jsxs("div", { className: "TranslatePage", children: [jsxRuntimeExports.jsxs("p", { children: [jsxRuntimeExports.jsx(Commentary, { topic: 'PHONETIC' }), "This page shows a running translation of the Residan text that you find on signs, computer displays, and so forth. (It\u2019s not that it\u2019s hard to read; it\u2019s just ", jsxRuntimeExports.jsx("em", { children: "annoying" }), ".)"] }), jsxRuntimeExports.jsx("hr", {}), ells, jsxRuntimeExports.jsx("p", { children: "\u00A0" })] }) }));
   }
+  const useRefDiv$1 = () => reactExports.useRef(null);
 
   const tab_list = [
       ['activity', 'Activity'],
