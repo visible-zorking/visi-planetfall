@@ -9,12 +9,13 @@
     "buildjs": "pnpm run minify && pnpm run buildts",
     "buildts": "pnpm exec tsc && pnpm exec rollup -c",
     "minify": "./minify gamedat.js && ./minify lib.js && ./minify glkio.js && ./minify ifvms.js && ./minify gnusto.js && ./minify parchment.js",
-    "builddata": "npm run recreate-gamedata && npm run rearrange-tables && npm run recolor-source && pnpm run regenerate-commentary && pnpm run reparse-map",
+    "builddata": "npm run recreate-gamedata && npm run rearrange-tables && npm run recolor-source && pnpm run regenerate-commentary && pnpm run retranslate-residan && pnpm run reparse-map",
     "recreate-gamedata": "python3 visiterp/pyana/parse.py --game planetfall-r37-s851003 -z gamesrc/planetfall.zil --obj --dict --grammar --txd --gamedat",
     "rearrange-tables": "python3 visiterp/pyana/parse.py --game planetfall-r37-s851003 -z gamesrc/planetfall.zil --zcode gamedat/planetfall-r37-s851003.z3 --gamedat",
     "recolor-source": "python3 visiterp/pyana/parse.py --game planetfall-r37-s851003 -z gamesrc/planetfall.zil --src --reindent",
     "regenerate-commentary": "python3 visiterp/pyana/comgen.py gamedat/commentary",
-    "reparse-map": "python3 visiterp/pyana/mapparse.py gamedat/base-map.svg"
+    "reparse-map": "python3 visiterp/pyana/mapparse.py gamedat/base-map.svg",
+    "retranslate-residan": "python3 compile-residan.py"
   },
   "type": "module",
   "dependencies": {
