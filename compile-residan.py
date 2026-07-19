@@ -9,12 +9,17 @@ pat = re.compile('^([0-9A-F]+):([A-Z0-9-]+:)?(.*)$')
 
 def parse(infl):
     addr = None
+    globname = None
     textls = None
     for ln in infl.readlines():
         ln = ln.rstrip()
         if not ln:
             if addr:
-                entry = (addr, '\n'.join(textls))
+                obj = {}
+                if globname:
+                    obj['glob'] = globname
+                obj['text'] = '\n'.join(textls)
+                entry = (addr, obj)
                 entries.append(entry)
                 addr = None
                 textls = None
