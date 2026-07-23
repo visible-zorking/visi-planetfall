@@ -144,13 +144,27 @@ glob:51-TEXT: The “lab leak” story is a lot more fraught than it came off as
 
 glob:62-TEXT: The entry refers to “Witnis” rather than “*Xe* Witnis”. I know I was annoyed when Infocom broke its pattern of one-word titles. Perhaps Meretzky agreed.
 
-glob:63-TEXT: But see also “[Roobotiks|glob:34-TEXT]”.
+glob:63-TEXT: But see also “[Roobotiks|glob:34-TEXT]” and the [Ballad of the Starcrossed Miner|src:COMPTWO-2088].
 
 
 glob:DIAL-NUMBER: The current setting of the [~obj:COMBINATION-DIAL].
 
 glob:NUMBER-NEEDED: The correct combination for the [~obj:COMBINATION-DIAL]. The value is set *after* your first move; see [rtn:I-RANDOM-INTERRUPTS].
 	Note that peeking at this value in the State tab won’t help you much! The [~obj:TELEPORTATION-CARD] is in the same place as the [~obj:COMBINATION-PAPER] clue. This must have been a guard against brute-force guessing; it serves equally well against Visible Zorker cheats.
+
+
+src:COMPTWO-2088: This is of course a summary of *Starcross*. That game took place in the year 2186. “Ten thousand years before” gives some sense of the time scale of the Third Galactic Union. (See also [rtn:GRUE-F].)
+	The poetry is bunk. Still, as a kid, I was impressed by the idea of one adventurer’s history gradually turning into another adventurer’s ancient myth.
+
+rtn:GRUE-F: The “visiting alien spacecraft” is another historic reference to *Starcross*. See also the [Ballad of the Starcrossed Miner|src:COMPTWO-2088].
+
+obj:GRUE: Hello, grue!
+
+obj:TROLL: You might not recognize the humanoid as the troll from Zork 1, but the source listing makes it clear.
+
+obj:RAT-ANT: Related to the rat-ants from *Starcross*? Heck of a lot bigger, though.
+
+obj:TRIFFID: A [classical monster|https://en.wikipedia.org/wiki/Triffid] rather than an Infocom reference.
 
 
 ### MICROBE-F: definitely mis-nested.
