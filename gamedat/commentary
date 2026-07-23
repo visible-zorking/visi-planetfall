@@ -9,6 +9,25 @@
 
 ABOUT: Welcome to the commentary track!
 
+rtn:V-VERSION: Print the title, release, and serial number. This release is branded as “interactive fiction”, replacing the “INTERLOGIC Science Fiction” label of the original release.
+	(But see [glob:MAIN-MENU].)
+
+
+GRAMMAR-LEGEND: This is the list of verb forms which the game recognizes. (Simple directions like `NORTH` are a special case; they’re not listed here.) These are compiled from the [SYNTAX|~src:SYNTAX-65] file.
+	Objects in a verb line have various flags which give hints about their usage. An object attribute (like `LIGHTBIT`) means that if the player doesn’t name an object, the parser will try to guess one with that attribute.
+	The other flag letters have specific meanings: **m**ultiple objects are accepted; the player must **h**ave the object; the player will automatically **t**ake the object; the object should be **i**n the room or **o**n the ground; the object should be **p**ossessed or **c**arried in a container. (Yes, they’re confusing. Infocom’s own docs say “No one really understands them except Stu” (Galley).)
+
+attr:RMUNGBIT: Not applied to real objects. `RMUNGBIT` is a hack used in grammar lines; it means the object is optional (but the preposition before it is required). This allows the parser to accept commands like [LOOK AROUND|~src:SYNTAX-193].
+
+glob:P-SYNTAX: The grammar line found when the most recent command was parsed. (Except for simple direction commands, which are a special case.) See the Grammar tab.
+
+
+OBJTREE-LEGEND: In this list, `Rooms` are rooms and `Items` are regular items. (Sometimes portable, sometimes not.)
+	`Scen` indicates scenery objects. These exist in multiple places; for example, the [~obj:STAIRS] are visible in many rooms.
+	`Glob` indicates a global object, which is *always* visible, or at least mentionable. For example, [~obj:SLEEP] is global, so you can always type `GO TO SLEEP`.
+
+obj:LOCAL-GLOBALS: This is a container for scenery objects like [~obj:STAIRS], which are visible from many locations in the game.
+
 
 prop:C-MOVE: This property does double duty. For rooms, it specifies extra travel time for particular directions. (That is, unusually long exit paths.)
 	For the dispenser buttons on the [~obj:CHEMICAL-DISPENSER], `C-MOVE` specifies the chemical color.
