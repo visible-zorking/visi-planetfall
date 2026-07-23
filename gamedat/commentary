@@ -69,8 +69,17 @@ glob:LOW-DIRECTION: Properties with this value and above are directions.
 
 attr:ONBIT: Set for glowing objects and permanently-illuminated rooms.
 
+attr:RLANDBIT: Set for all rooms. This flag is not checked for rooms, but it has a secondary use: Floyd has `RLANDBIT` when active.
 
+attr:ACTORBIT: Set for living beings (or friendly robots).
 
+glob:P-WON: Set if the parser successfully parsed a command. (As opposed to a blank line or an error.)
+	No relation to whether the *player* has won.
+
+glob:C-INTS: Indicates how much of the timer table ([*glob:C-TABLE]) is used. This counts down from `C-TABLELEN`, which is 240.
+
+glob:C-DEMONS: Indicates how much of the timer table is used for daemons.
+	The difference between daemons and timers is that timers run every turn; daemons run every *input*, even if no turn passes. But *Planetfall* does not use daemons.
 
 glob:C-TABLE: The timer table. See the “Timers” tab for a current listing.
 
