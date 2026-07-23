@@ -15,9 +15,17 @@ EF5A: "High Protein Liquid Dispenser."
 
 F3E0: "Administrative Office," "Transportation Supply," and "Plan Room."
 
+F62D: PLANETARY DEFENSE
+
+F649: PLANETARY COURSE CONTROL
+
 F66D: COMMUNICATIONS
 
 F684: LIBRARY, REACTORS, and LIFE SUPPORT
+
+F6CD: PLANETARY DEFENSE
+
+F6E9: PLANETARY COURSE CONTROL
 
 F70D: COMMUNICATIONS
 
@@ -75,6 +83,10 @@ FAEA: "COOLANTS 1 - 4", "CATALYSTS 1 - 3", "BASE", "ACID".
 18058: "To any ship of the Second Galactic Union: Planetwide plague has struck entire population. Time is critical. Emergency assistance requested. <repeat message>"
 
 183F4: "Symptoms of The Disease"
+
+1859A: "Planetary Defense"
+
+185D4: "Planetary Course Control"
 
 1876C: "Helicopter Operating Manual"
 
