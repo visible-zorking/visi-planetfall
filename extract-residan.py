@@ -14,7 +14,7 @@ arr.sort()
 for tup in arr:
     addr, text, pos = tup[0:3]
     ltext = text.lower()
-    if 'aa' in ltext or 'uu' in ltext or 'ii' in ltext or 'xe ' in ltext or 'praj' in ltext or 'planateree' in ltext:
+    if 'aa' in ltext or 'uu' in ltext or 'ii' in ltext or 'xe ' in ltext or 'praj' in ltext or 'planateree' in ltext or 'dizeez' in ltext:
         text = text.strip()
         text = text.replace('\n\n', '\n')
         text = text.replace('\n\n', '\n')
