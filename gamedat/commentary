@@ -49,6 +49,13 @@ glob:WINNER: `WINNER` is the actor in the current command.
 glob:HERE: The location of the [glob:WINNER].
 
 
+rtn:GO: Set up the world at the start of the game. Start the timers. Print the banner. Set all those useful globals like [~glob:HERE] and [~glob:WINNER].
+
+rtn:JIGS-UP: This routine displays your demise and then calls [rtn:FINISH].
+
+rtn:FINISH: This routine displays your score. Then, if you haven’t reached a story conclusion, it offers a “`RESTART`, `RESTORE`, or `QUIT`” choice.
+	(*Planetfall* is the first Infocom game to adopt this end-of-game convention!)
+
 
 prop:C-MOVE: This property does double duty. For rooms, it specifies extra travel time for particular directions. (That is, unusually long exit paths.)
 	For the dispenser buttons on the [~obj:CHEMICAL-DISPENSER], `C-MOVE` specifies the chemical color.
@@ -82,6 +89,7 @@ glob:C-DEMONS: Indicates how much of the timer table is used for daemons.
 	The difference between daemons and timers is that timers run every turn; daemons run every *input*, even if no turn passes. But *Planetfall* does not use daemons.
 
 glob:C-TABLE: The timer table. See the “Timers” tab for a current listing.
+
 
 TIMERS-LEGEND: A list of the timers running (or paused) in the timer table ([~glob:C-TABLE]). Positive numbers count down (while enabled) and call the named function after that many millichrons. Negative numbers are called every turn while the timer is enabled.
 	(*Planetfall* is the first Infocom game in which timers can count down by arbitrary amounts of time. *Deadline* fakes its long `WAIT`s by calling [~rtn:CLOCKER] once per minute.)
