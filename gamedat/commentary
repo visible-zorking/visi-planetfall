@@ -28,14 +28,49 @@ OBJTREE-LEGEND: In this list, `Rooms` are rooms and `Items` are regular items. (
 
 obj:LOCAL-GLOBALS: This is a container for scenery objects like [~obj:STAIRS], which are visible from many locations in the game.
 
+src:GLOBALS-30: This refers to the word `ZZMGCK` in [~obj:LOCAL-GLOBALS], above.
+	Why is this synonym necessary? Not clear! Most Infocom games have it (or a variation), but some say “No, this synonym doesn’t need to exist” instead.
+	If you type `EXAMINE ZZMGCK`, the parser finds [~obj:LOCAL-GLOBALS]. But that object is nameless, so you get a garbage reply. Go on, try it.
+
+obj:ADVENTURER: If you refer to `ME`, you get the [obj:ME] global object, not the `ADVENTURER`.
+	The `ADVENTURER` object has several irrelevant synonyms like `opener`. Since the `ADVENTURER` is never in scope, any reference to these produces a message like “You can’t see any opener here!” Presumably this was meant to avoid an “I don’t know the word” error, which would give away that there is no can opener in the game.
+
+obj:ME: A global object which is always in scope. Commands referring to `ME` hit this, rather than [*obj:ADVENTURER], which is a stub that moves around the map.
+	Because of this, parser messages mostly refer to you as “you”, even though the [obj:ADVENTURER]’s printed name is “player”.
+
+rtn:CRETIN-F: In most earlier games, the player object was called “[cretin|relative:../zork1/#OBJ:ADVENTURER]” under the hood. Infocom has finally ditched that weak joke, but its smell lingers in the name of this routine.
+
+rtn:V-LOOK-CRETIN: Ooh, touchy. This is the response if you type `LOOK OBJECT` instead of `LOOK AT OBJECT` or `EXAMINE OBJECT`.
+	Modern IF tools like Inform 7 have generally gone back to accepting `LOOK OBJECT` as a synonym. Honestly, I’m with Meretzky on this one.
+
+glob:WINNER: `WINNER` is the actor in the current command. 
+	`WINNER` is usually [~obj:ADVENTURER], but for a command like `FLOYD, GIVE ME THE CARD` it shifts to the named NPC.
+
+glob:HERE: The location of the [glob:WINNER].
+
+
 
 prop:C-MOVE: This property does double duty. For rooms, it specifies extra travel time for particular directions. (That is, unusually long exit paths.)
 	For the dispenser buttons on the [~obj:CHEMICAL-DISPENSER], `C-MOVE` specifies the chemical color.
 	(In fact *Planetfall* only uses 26 of the 31 properties, so there’s no need to double up like this.)
 
 
+glob:LIT: Whether the current location has light. Set by calling the [rtn:LIT?] routine.
+
+rtn:LIT?: Determine whether a given location has light. This is true if the room or anything in it has [attr:ONBIT].
+	This routine is used to set the [glob:LIT] variable.
+	The only dark rooms in *Planetfall* are the [~obj:REACTOR-ACCESS-STAIRS] and [~obj:TRANSPORTATION-SUPPLY].
+
 glob:LOAD-ALLOWED: The maximum weight you can carry. This decreases as you become sicker; see [rtn:I-SICKNESS-WARNINGS].
 	Most Infocom games track your initial weight limit (as `LOAD-MAX`). This allows the game to restore `LOAD-ALLOWED` when you heal. But in *Planetfall*, you never return to full health! So it is sufficient to track incremental changes.
+
+glob:LOW-DIRECTION: Properties with this value and above are directions.
+
+
+attr:ONBIT: Set for glowing objects and permanently-illuminated rooms.
+
+
+
 
 glob:C-TABLE: The timer table. See the “Timers” tab for a current listing.
 
