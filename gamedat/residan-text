@@ -15,9 +15,17 @@ EF5A: Above the spout is a button. The machine is labelled "Hii Prooteen Likwid 
 
 F3E0: The corridor ends here. Portals lead west, north, and east. Signs above these portals read, respectively, "Administraativ Awfisiz," "Tranzportaashun Suplii," and "Plan Ruum." To the south is a wide rift
 
+F62D: PLANATEREE DEFENS,
+
+F649: PLANATEREE KORS KUNTROOL,
+
 F66D: KUMUUNIKAASHUNZ,
 
 F684: LIIBREREE, REEAKTURZ, and LIIF SUPORT are green, but the one
+
+F6CD: PLANATEREE DEFENS,
+
+F6E9: PLANATEREE KORS KUNTROOL,
 
 F70D: KUMUUNIKAASHUNZ,
 
@@ -77,6 +85,10 @@ FAEA: The dispenser is lined with brightly-colored buttons. The first four butto
 18058: "Tuu enee ship uv xe Sekund Galaktik Yuunyun: Planitwiid plaag haz struk entiir popyuulaashun. Tiim iz kritikul. Eemurjensee asistins reekwestid. <reepeet mesij>"
 
 183F4: The spool is labelled "Simptumz uv Xe Dizeez."
+
+1859A: This section of hallway has a doorway to the north labelled "Planateree Deefens." The corridor continues east and west.
+
+185D4: The hallway ends here with a large doorway leading east, and smaller doorways to the north and south. The northern doorway is labelled "Planateree Kors Kontrool." The hallway itself leads west.
 
 1876C: The spool is labelled "Helikoptur Opuraateeng Manyuuwul."
 
