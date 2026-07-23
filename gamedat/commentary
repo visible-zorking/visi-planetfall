@@ -88,3 +88,8 @@ glob:NUMBER-NEEDED: The correct combination for the [~obj:COMBINATION-DIAL]. The
 
 ### deleted DIGGER puzzle?
 
+# The two islands are 20 km (12 miles) apart. The shuttle ride takes 24 turns at 600/v millichrons per turn. We may consistently assume that each turn covers half a mile.
+# So the recommended SHUTTLE-VELOCITY of "45" covers 12 miles in 320 millichrons, or 46 minutes.
+# This puts the shuttle speed limit at a blazing 16 mph! 
+# The "recommended" run (capped at 45) takes 763 millichrons, or 110 minutes.
+# If you leave the lever pushed, you can hit 20 mph by the time you reach turnover at the midpoint. That only shaves 14 millichrons (two minutes) off the trip time.
