@@ -167,6 +167,18 @@ obj:RAT-ANT: Related to the rat-ants from *Starcross*? Heck of a lot bigger, tho
 obj:TRIFFID: A [classical monster|https://en.wikipedia.org/wiki/Triffid] rather than an Infocom reference.
 
 
+src:VERBS-1649: This compiled-out routine would have been invoked with the command `Z`. (In the compiled game, `Z` is just a synonym for `WAIT`.) 
+	The symbol `QUITTER` is the MDL interrupt handler. (See [MDL docs|https://mdl-language.readthedocs.io/en/latest/21-interrupts/].) On Infocom’s mainframe interpreter, this routine sent it a `ctrl-G`, which would have paused the interpreter and allowed low-level debugging.
+
+src:VERBS-1894: A number of handy cheat codes, now commented out. The commands would have been `$CRAG`, `$FORK`, `$CARDS`, `$BOOTH`, `$FIX`.
+
+src:VERBS-1918: This is a quote from _Alice’s Restaurant_, not a harsh indictment of the cheater. Or, well, both, I suppose.
+
+rtn:PRINT-OUT-F: The `FIXED-FONT` declarations be wrapped only around the tabular status report, not this entire message.
+
+src:COMPTWO-1530: I wonder what this was attached to? Note that the message is a whimsical mashup of the endings of *Zork 1*, *Zork 3*, *Deadline*, and *Starcross*.
+
+
 ### MICROBE-F: definitely mis-nested.
 
 ### SERIAL is 1
