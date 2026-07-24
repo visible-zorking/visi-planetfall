@@ -24,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="2"
-     inkscape:cx="75.75"
-     inkscape:cy="220"
+     inkscape:zoom="1"
+     inkscape:cx="499.5"
+     inkscape:cy="326"
      inkscape:window-width="2240"
      inkscape:window-height="1220"
      inkscape:window-x="163"
      inkscape:window-y="64"
      inkscape:window-maximized="0"
-     inkscape:current-layer="mobilelayer"
+     inkscape:current-layer="roomlayer"
      showguides="false">
     <inkscape:grid
        id="grid1"
@@ -352,6 +352,174 @@
        y="113.77084"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-corridor-junction"
+       width="21.166666"
+       height="15.875001"
+       x="214.31248"
+       y="66.145836"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-admin-corridor-s"
+       width="21.166666"
+       height="15.875001"
+       x="214.31248"
+       y="42.333344"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-admin-corridor"
+       width="21.166666"
+       height="15.875001"
+       x="214.31248"
+       y="18.520838"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-admin-corridor-n"
+       width="21.166666"
+       height="15.875001"
+       x="214.31248"
+       y="-5.2916641"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-transportation-supply"
+       width="21.166666"
+       height="15.875001"
+       x="214.31248"
+       y="-29.104166"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-systems-monitors"
+       width="21.166666"
+       height="15.875001"
+       x="185.20831"
+       y="18.520836"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-small-office"
+       width="21.166666"
+       height="15.875001"
+       x="185.20831"
+       y="-5.2916656"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-large-office"
+       width="21.166666"
+       height="15.875001"
+       x="156.10416"
+       y="-5.2916646"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-plan-room"
+       width="21.166666"
+       height="15.875001"
+       x="243.41664"
+       y="-5.291667"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-sanfac-e"
+       width="21.166666"
+       height="15.875001"
+       x="243.41664"
+       y="42.333336"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-mech-corridor"
+       width="21.166666"
+       height="15.875001"
+       x="214.31248"
+       y="113.77084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-mech-corridor-n"
+       width="21.166666"
+       height="15.875001"
+       x="214.31248"
+       y="89.958344"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-machine-shop"
+       width="21.166666"
+       height="15.875001"
+       x="214.31248"
+       y="161.39584"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-mech-corridor-s"
+       width="21.166666"
+       height="15.875001"
+       x="214.31248"
+       y="137.58334"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-tool-room"
+       width="21.166666"
+       height="15.875001"
+       x="185.20831"
+       y="161.39584"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-robot-shop"
+       width="21.166666"
+       height="15.875001"
+       x="243.41664"
+       y="161.39584"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-physical-plant"
+       width="21.166674"
+       height="18.520836"
+       x="185.20831"
+       y="100.54167"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-reactor-control"
+       width="21.166666"
+       height="15.875001"
+       x="243.41664"
+       y="113.77084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-storage-east"
+       width="21.166666"
+       height="15.875001"
+       x="243.41664"
+       y="89.958344"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-reactor-elevator"
+       width="21.166666"
+       height="15.875001"
+       x="272.52081"
+       y="113.77084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-reactor-access-stairs"
+       width="21.166666"
+       height="15.875001"
+       x="272.52081"
+       y="137.58334"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -362,7 +530,8 @@
   <g
      inkscape:groupmode="layer"
      id="mobilelayer"
-     inkscape:label="Mobiles">
+     inkscape:label="Mobiles"
+     sodipodi:insensitive="true">
     <g
        id="mob-floyd"
        transform="translate(15.875,15.874998)">
