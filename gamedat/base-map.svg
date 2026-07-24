@@ -25,8 +25,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="352.5"
-     inkscape:cy="528"
+     inkscape:cx="170.5"
+     inkscape:cy="306"
      inkscape:window-width="2240"
      inkscape:window-height="1220"
      inkscape:window-x="163"
@@ -126,7 +126,7 @@
      id="roomlayer"
      style="display:inline">
     <rect
-       id="r-back-yard"
+       id="r-dorm-c"
        width="21.166666"
        height="15.875001"
        x="126.99999"
@@ -134,7 +134,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-hall-3"
+       id="r-mess-hall"
        width="21.166666"
        height="15.875001"
        x="97.895828"
@@ -142,7 +142,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-entry"
+       id="r-rec-corridor"
        width="21.166666"
        height="15.875001"
        x="68.791664"
@@ -150,7 +150,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-office"
+       id="r-sanfac-c"
        width="21.166666"
        height="15.875001"
        x="126.99999"
@@ -158,7 +158,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-hall-2"
+       id="r-mess-corridor"
        width="21.166666"
        height="15.875001"
        x="97.895828"
@@ -166,7 +166,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-kitchen"
+       id="r-dorm-b"
        width="21.166666"
        height="15.875001"
        x="68.791664"
@@ -174,7 +174,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-storage-closet"
+       id="r-dorm-a"
        width="21.166666"
        height="15.875001"
        x="68.791664"
@@ -182,7 +182,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-hall-4"
+       id="r-courtyard"
        width="21.166666"
        height="15.875001"
        x="39.687492"
@@ -190,7 +190,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-linder-room"
+       id="r-dorm-corridor"
        width="21.166666"
        height="15.875001"
        x="126.99999"
@@ -198,7 +198,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-rock-garden"
+       id="r-dorm-d"
        width="21.166666"
        height="15.875001"
        x="126.99999"
@@ -206,7 +206,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-living-room"
+       id="r-storage-west"
        width="21.166666"
        height="15.875001"
        x="97.895828"
@@ -214,7 +214,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-dining-room"
+       id="r-sanfac-b"
        width="21.166666"
        height="15.875001"
        x="68.791664"
@@ -222,7 +222,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-office-porch"
+       id="r-sanfac-d"
        width="21.166666"
        height="15.875001"
        x="126.99999"
@@ -230,7 +230,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-garage"
+       id="r-west-wing"
        width="21.166666"
        height="15.875001"
        x="7.9374962"
@@ -238,7 +238,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-workshop"
+       id="r-balcony"
        width="21.166666"
        height="15.875001"
        x="39.687492"
@@ -246,7 +246,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-front-porch"
+       id="r-conference-room"
        width="21.166666"
        height="15.875001"
        x="39.687496"
@@ -254,7 +254,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-driveway"
+       id="r-rec-area"
        width="21.166666"
        height="15.875001"
        x="39.687496"
@@ -262,7 +262,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-front-yard"
+       id="r-booth-1"
        width="21.166666"
        height="15.875001"
        x="39.687496"
@@ -270,7 +270,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-side-yard"
+       id="r-winding-stair"
        width="21.166666"
        height="15.875001"
        x="39.687492"
@@ -278,7 +278,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-office-path"
+       id="r-crag"
        width="21.166666"
        height="15.875001"
        x="39.687496"
@@ -286,7 +286,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-driveway-entrance"
+       id="r-plain-hall"
        width="21.166666"
        height="15.875001"
        x="39.687496"
@@ -294,7 +294,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect1"
+       id="r-sanfac-a"
        width="21.166666"
        height="15.875001"
        x="68.791664"
@@ -302,7 +302,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect2"
+       id="r-kitchen"
        width="21.166666"
        height="15.875001"
        x="97.895828"
