@@ -35,7 +35,7 @@ export function TabbedPane()
     let rctx = useContext(ReactCtx);
 
     const mobiles = [
-        gamedat_ids.CAT,
+        gamedat_ids.FLOYD,
     ];
 
     let ells = tab_list.map(([key, label]) => {
