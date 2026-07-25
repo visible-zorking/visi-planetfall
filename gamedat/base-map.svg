@@ -25,12 +25,12 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="1309"
-     inkscape:cy="945"
+     inkscape:cx="2522.5"
+     inkscape:cy="783"
      inkscape:window-width="2240"
      inkscape:window-height="1220"
      inkscape:window-x="145"
-     inkscape:window-y="63"
+     inkscape:window-y="35"
      inkscape:window-maximized="0"
      inkscape:current-layer="roomlayer"
      showguides="false">
@@ -131,9 +131,14 @@
     </g>
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f1f1f1;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
-       d="M 132.29169,84.666669 V 119.06252 C 97.895843,145.52087 55.562494,140.2292 0,140.2292 V 42.333336 c 47.624994,-2.645834 103.18751,18.520835 132.29169,42.333333 z"
+       d="M 132.29169,84.666669 V 119.06252 C 97.895843,145.52087 47.624994,140.2292 -7.9374996,140.2292 V 42.333336 C 50.270831,37.041669 103.18751,60.854171 132.29169,84.666669 Z"
        id="path143"
        sodipodi:nodetypes="ccccc" />
+    <path
+       style="font-variation-settings:normal;display:inline;fill:none;fill-opacity:1;stroke:#d9d9d9;stroke-width:2.11667;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+       d="m 34.39583,127.00001 c 13.229168,52.91667 97.89583,153.45833 127,174.62501"
+       id="path5"
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -207,11 +212,12 @@
        id="path154" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 359.8334,185.20838 h 42.33334"
-       id="path155" />
+       d="m 359.8334,185.20838 44.97908,-4e-5"
+       id="path155"
+       sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 388.93757,190.50005 v 10.58333 l 13.22916,-5.29166 1e-5,7.9375"
+       d="m 388.93757,190.50005 v 10.58333 l 7.93749,-5.29166 10e-6,7.9375"
        id="path156"
        sodipodi:nodetypes="cccc" />
     <path
@@ -255,10 +261,6 @@
        d="m 460.37505,60.854169 c 0,-2.645833 0,-7.9375 0,-7.9375 0,0 -10.58333,2.645833 -10.58333,2.645833 v -7.9375"
        id="path12" />
     <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="M 447.14588,37.041667 457.72922,26.458334"
-       id="path13" />
-    <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
        d="m 473.60422,177.27088 h 26.45833"
        id="path17" />
@@ -285,8 +287,9 @@
        sodipodi:nodetypes="cccc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
-       d="M 42.333343,121.70835 H 84.666676"
-       id="path125" />
+       d="m 42.333343,121.70835 63.499987,-10e-6"
+       id="path125"
+       sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
        d="m 60.854176,104.51044 v 6.61457 l 5.291666,-2.64582 v 6.61457"
@@ -298,10 +301,26 @@
        id="path68-1"
        sodipodi:nodetypes="cccc" />
     <path
+       style="fill:none;stroke:#4d4d4d;stroke-width:1.05833;-inkscape-stroke:none;paint-order:stroke fill markers;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 23.812499,92.604171 v 5.291666"
+       id="path1" />
+    <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 156.1042,280.45839 h 15.87501"
-       id="path142"
-       sodipodi:nodetypes="cc" />
+       d="m 92.60416,127.00001 v 5.29166"
+       id="path2" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
+       d="m 410.10414,215.63543 v 6.61458 l 5.29167,-2.64583 v 6.61458"
+       id="path3"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       d="m 454.02498,25.400002 -7.9375,5.291666 h 10.58333 l -7.9375,5.291667"
+       id="path6" />
+    <path
+       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+       d="m 171.97916,285.75002 -7.9375,5.29167 h 10.58333 l -7.9375,5.29166"
+       id="path6-6" />
   </g>
   <g
      inkscape:label="Rooms"
@@ -646,17 +665,17 @@
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
        id="r-reactor-elevator"
-       width="21.166666"
-       height="15.875001"
-       x="399.52057"
-       y="177.27089"
+       width="15.87501"
+       height="15.875"
+       x="402.16666"
+       y="177.27084"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
        id="r-reactor-access-stairs"
        width="21.166666"
        height="15.875001"
-       x="399.52057"
+       x="394.22891"
        y="201.0834"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -728,8 +747,8 @@
        id="r-helicopter"
        width="21.166666"
        height="15.875001"
-       x="447.14557"
-       y="13.229166"
+       x="447.14581"
+       y="10.583334"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
@@ -784,8 +803,8 @@
        id="r-alfie-control-west"
        width="15.874991"
        height="15.874997"
-       x="481.54138"
-       y="193.1459"
+       x="481.54166"
+       y="193.14584"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
@@ -852,6 +871,214 @@
        y="79.375"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-lawanda-platform"
+       width="26.458319"
+       height="15.874999"
+       x="603.25006"
+       y="169.33337"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-escalator"
+       width="21.166666"
+       height="15.875001"
+       x="637.64581"
+       y="169.33334"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-fork"
+       width="21.166666"
+       height="15.875001"
+       x="666.74994"
+       y="169.33334"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-project-corridor-west"
+       width="21.166666"
+       height="15.875001"
+       x="695.85413"
+       y="193.14584"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-sanfac-f"
+       width="21.166666"
+       height="15.875001"
+       x="666.74994"
+       y="193.14584"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-systems-corridor-west"
+       width="21.166666"
+       height="15.875001"
+       x="695.85413"
+       y="145.52084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-repair-room"
+       width="21.166666"
+       height="15.875001"
+       x="695.85413"
+       y="121.70834"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-infirmary"
+       width="21.166666"
+       height="15.875001"
+       x="666.74994"
+       y="121.70834"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-systems-corridor"
+       width="21.166666"
+       height="15.875001"
+       x="724.95831"
+       y="145.52084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="rect17"
+       width="21.166666"
+       height="15.875001"
+       x="724.95831"
+       y="121.70834"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-planetary-defense"
+       width="21.166666"
+       height="15.875001"
+       x="724.95831"
+       y="121.70834"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-project-corridor"
+       width="21.166666"
+       height="15.875001"
+       x="724.95831"
+       y="193.14584"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-library"
+       width="21.166666"
+       height="15.875001"
+       x="724.95831"
+       y="169.33334"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-cryo-elevator"
+       width="21.166666"
+       height="15.875001"
+       x="724.95831"
+       y="240.77084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-projcon-office"
+       width="21.166666"
+       height="15.875001"
+       x="724.95831"
+       y="216.95834"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-systems-corridor-east"
+       width="21.166666"
+       height="15.875001"
+       x="754.06244"
+       y="145.52084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="rect24"
+       width="21.166666"
+       height="15.875001"
+       x="754.06244"
+       y="121.70834"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-course-control"
+       width="21.166666"
+       height="15.875001"
+       x="754.06244"
+       y="121.70834"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-project-corridor-east"
+       width="21.166666"
+       height="15.875001"
+       x="754.06244"
+       y="193.14584"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-library-lobby"
+       width="21.166666"
+       height="15.875001"
+       x="754.06244"
+       y="169.33334"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-miniaturization-booth"
+       width="21.166666"
+       height="15.875001"
+       x="754.06244"
+       y="240.77084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-computer-room"
+       width="21.166666"
+       height="15.875001"
+       x="754.06244"
+       y="216.95834"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-physical-plant-two"
+       width="21.166666"
+       height="15.875001"
+       x="783.16663"
+       y="145.52084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-main-lab"
+       width="21.166666"
+       height="15.875001"
+       x="783.16663"
+       y="193.14584"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-booth-3"
+       width="21.166666"
+       height="15.875001"
+       x="783.16663"
+       y="169.33334"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-lab-storage"
+       width="21.166666"
+       height="15.875001"
+       x="783.16663"
+       y="216.95834"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -878,8 +1105,8 @@
        id="rect142"
        width="15.874991"
        height="15.875002"
-       x="142.87498"
-       y="272.52084"
+       x="153.45833"
+       y="293.68753"
        ry="2.6458292"
        style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.7;stroke-opacity:1" />
   </g>
@@ -1560,36 +1787,36 @@
          id="tspan140">East</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="410.10391"
-       y="184.15005"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.71224px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.876908;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="410.12396"
+       y="184.30247"
        id="text128"><tspan
          sodipodi:role="line"
-         style="stroke-width:1"
-         x="410.10391"
-         y="184.15005"
-         id="tspan127">Corridor</tspan><tspan
+         style="stroke-width:0.876908"
+         x="410.12396"
+         y="184.30247"
+         id="tspan128">Reactor</tspan><tspan
          sodipodi:role="line"
-         style="stroke-width:1"
-         x="410.10391"
-         y="189.65338"
-         id="tspan128">Junction</tspan></text>
+         style="stroke-width:0.876908"
+         x="410.12396"
+         y="189.12839"
+         id="tspan2">Elevator</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="410.10391"
+       x="404.81226"
        y="207.96259"
        id="text130"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="410.10391"
+         x="404.81226"
          y="207.96259"
-         id="tspan129">Corridor</tspan><tspan
+         id="tspan129">Reactor</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="410.10391"
+         x="404.81226"
          y="213.46591"
-         id="tspan130">Junction</tspan></text>
+         id="tspan130">Stairs</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
@@ -1610,12 +1837,12 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.65215px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.862713;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
        x="457.75128"
-       y="22.057762"
+       y="19.411926"
        id="text23"><tspan
          sodipodi:role="line"
          style="stroke-width:0.862713"
          x="457.75128"
-         y="22.057762"
+         y="19.411926"
          id="tspan23">Helicopter</tspan></text>
     <text
        xml:space="preserve"
@@ -1981,5 +2208,21 @@
          x="26.522465"
          y="59.185471"
          id="tspan152">Feinstein</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="616.47931"
+       y="176.21255"
+       id="text9"><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="616.47931"
+         y="176.21255"
+         id="tspan7">Lawanda</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="616.47931"
+         y="181.71588"
+         id="tspan9">Platform</tspan></text>
   </g>
 </svg>
