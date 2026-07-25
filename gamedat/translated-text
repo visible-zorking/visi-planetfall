@@ -38,6 +38,8 @@ FAEA: "COOLANTS 1 - 4", "CATALYSTS 1 - 3", "BASE", "ACID".
 114DC: "Receive Station": "Transmission Received", "Message Playback".
 	"Send Station."
 
+11619: "Transmission in progress."
+
 11631: "Malfunction in Sending Coolant System."
 
 11682: "Coolant System Manual Override."
