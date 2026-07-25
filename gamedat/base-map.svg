@@ -992,7 +992,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-course-control"
+       id="r-planetary-course-control"
        width="21.166666"
        height="15.875001"
        x="754.06244"
@@ -1016,7 +1016,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-miniaturization-booth"
+       id="r-mini-booth"
        width="21.166666"
        height="15.875001"
        x="754.06244"
