@@ -25,14 +25,14 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="2130.5"
-     inkscape:cy="731"
+     inkscape:cx="3054.5"
+     inkscape:cy="634"
      inkscape:window-width="2240"
      inkscape:window-height="1220"
      inkscape:window-x="144"
      inkscape:window-y="35"
      inkscape:window-maximized="0"
-     inkscape:current-layer="decorlayer"
+     inkscape:current-layer="connlayer"
      showguides="false">
     <inkscape:grid
        id="grid1"
@@ -103,6 +103,15 @@
      inkscape:groupmode="layer"
      id="decorlayer"
      inkscape:label="Back-Decor">
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f1f1f1;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       id="rect227"
+       width="7.9374995"
+       height="47.625004"
+       x="639.58356"
+       y="617.6806"
+       ry="2.6458292"
+       transform="rotate(-35.692708)" />
     <g
        id="path14"
        style="opacity:1;fill:none;stroke:#dadada;stroke-opacity:1"
@@ -171,6 +180,21 @@
          d="m 735.54163,248.70835 -37.04167,55.56251"
          id="path223" />
     </g>
+    <circle
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f1f1f1;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       id="path226"
+       cx="862.54163"
+       cy="97.895844"
+       r="47.625" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f1f1f1;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       id="rect228"
+       width="13.213188"
+       height="41.756474"
+       x="636.86273"
+       y="638.32019"
+       ry="2.6458292"
+       transform="rotate(-35.692708)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -414,28 +438,32 @@
        id="path107" />
     <path
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 814.91663,189.17709 -5.29175,-4e-5 c -6.61458,0 -6.61458,5.29167 -6.61458,5.29167 v 13.22917 c 0,0 0,5.29166 6.61458,5.29166 l 5.29175,4e-5"
+       d="m 814.91671,187.85422 -5.29175,-4e-5 c -3.96875,0 -6.61466,6.61454 -6.61466,6.61454 v 13.22917 c 0,0 2.64591,6.61462 6.61458,6.61458 l 5.29175,4e-5"
        id="path158-3"
        sodipodi:nodetypes="cccccc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 817.56246,187.85418 h 44.97916"
+       d="m 820.20832,187.85418 h 44.97916"
        id="path198"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 818.88538,214.31251 h 72.76041"
+       d="m 821.53124,214.31251 h 72.76041"
        id="path199"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 891.64579,218.28126 v 13.22917"
+       d="m 894.29165,218.28126 v 13.22917"
        id="path200" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
        d="m 698.49997,269.87501 0,27.78126"
        id="path219"
        sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       d="m 849.31246,119.0625 h 23.8125 V 71.437501"
+       id="path239" />
   </g>
   <g
      inkscape:label="Rooms"
@@ -1182,7 +1210,7 @@
        id="r-radiation-lock-west"
        width="15.875021"
        height="15.875006"
-       x="809.62494"
+       x="812.27081"
        y="179.91667"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1190,7 +1218,7 @@
        id="r-bio-lock-west"
        width="15.875021"
        height="15.874997"
-       x="809.62494"
+       x="812.27081"
        y="206.37502"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1198,7 +1226,7 @@
        id="r-radiation-lock-east"
        width="15.875021"
        height="15.875006"
-       x="828.14581"
+       x="830.79169"
        y="179.91667"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1206,7 +1234,7 @@
        id="r-bio-lock-east"
        width="15.875021"
        height="15.874997"
-       x="828.14581"
+       x="830.79169"
        y="206.37502"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1214,7 +1242,7 @@
        id="r-radiation-lab"
        width="21.166666"
        height="15.875001"
-       x="851.95825"
+       x="854.60413"
        y="179.91667"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1222,7 +1250,7 @@
        id="r-bio-lab"
        width="21.166666"
        height="15.875001"
-       x="851.95825"
+       x="854.60413"
        y="206.37502"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1230,7 +1258,7 @@
        id="r-lab-office"
        width="21.166666"
        height="15.875001"
-       x="881.06244"
+       x="883.70831"
        y="206.37502"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1238,7 +1266,7 @@
        id="r-auxiliary-booth"
        width="15.875023"
        height="15.875002"
-       x="883.70831"
+       x="886.35419"
        y="230.18752"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1248,6 +1276,38 @@
        height="15.875001"
        x="687.91663"
        y="272.52084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-station-384"
+       width="21.166666"
+       height="15.875001"
+       x="833.4375"
+       y="111.12502"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-middle-of-strip"
+       width="21.166666"
+       height="15.875001"
+       x="862.54163"
+       y="87.312508"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-strip-near-relay"
+       width="21.166666"
+       height="15.875001"
+       x="862.54163"
+       y="63.500004"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-strip-near-station"
+       width="21.166666"
+       height="15.875001"
+       x="862.54163"
+       y="111.12502"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
   </g>
@@ -2802,129 +2862,129 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="891.64581"
+       x="894.29169"
        y="237.0667"
        id="text201"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="891.64581"
+         x="894.29169"
          y="237.0667"
          id="tspan201">Aux</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="891.64581"
+         x="894.29169"
          y="242.57002"
          id="tspan202">Booth</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="891.64581"
+       x="894.29169"
        y="213.2542"
        id="text204"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="891.64581"
+         x="894.29169"
          y="213.2542"
          id="tspan203">Lab</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="891.64581"
+         x="894.29169"
          y="218.75752"
          id="tspan204">Office</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="862.54163"
+       x="865.1875"
        y="213.2542"
        id="text206"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="862.54163"
+         x="865.1875"
          y="213.2542"
          id="tspan205">Bio</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="862.54163"
+         x="865.1875"
          y="218.75752"
          id="tspan206">Lab</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="836.08331"
+       x="838.72919"
        y="213.2542"
        id="text208"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="836.08331"
+         x="838.72919"
          y="213.2542"
          id="tspan207">Bio</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="836.08331"
+         x="838.72919"
          y="218.75752"
          id="tspan208">Lock E</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="817.56244"
+       x="820.20831"
        y="213.2542"
        id="text210"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="817.56244"
+         x="820.20831"
          y="213.2542"
          id="tspan209">Bio</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="817.56244"
+         x="820.20831"
          y="218.75752"
          id="tspan210">Lock W</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="862.54163"
-       y="186.79585"
+       x="844.02081"
+       y="118.0042"
        id="text212"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="862.54163"
-         y="186.79585"
-         id="tspan211">Radiation</tspan><tspan
+         x="844.02081"
+         y="118.0042"
+         id="tspan212">Station</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="862.54163"
-         y="192.29918"
-         id="tspan212">Lab</tspan></text>
+         x="844.02081"
+         y="123.50753"
+         id="tspan234">384</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="836.08331"
+       x="838.72919"
        y="186.79584"
        id="text214"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="836.08331"
+         x="838.72919"
          y="186.79584"
          id="tspan213">Rad</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="836.08331"
+         x="838.72919"
          y="192.29916"
          id="tspan214">Lock E</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="817.56244"
+       x="820.20831"
        y="186.79584"
        id="text216"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="817.56244"
+         x="820.20831"
          y="186.79584"
          id="tspan215">Rad</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="817.56244"
+         x="820.20831"
          y="192.29916"
          id="tspan216">Lock W</tspan></text>
     <text
@@ -2975,5 +3035,69 @@
          x="698.5"
          y="284.90332"
          id="tspan221">Anteroom</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="873.12494"
+       y="118.0042"
+       id="text229"><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="873.12494"
+         y="118.0042"
+         id="tspan229">Strip Near</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="873.12494"
+         y="123.50753"
+         id="tspan235">Station</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="873.125"
+       y="94.191681"
+       id="text231"><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="873.125"
+         y="94.191681"
+         id="tspan231">Middle</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="873.125"
+         y="99.695007"
+         id="tspan236">of Strip</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="873.125"
+       y="70.379173"
+       id="text233"><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="873.125"
+         y="70.379173"
+         id="tspan233">Strip Near</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="873.125"
+         y="75.8825"
+         id="tspan237">Relay</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="865.1875"
+       y="186.79584"
+       id="text239"><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="865.1875"
+         y="186.79584"
+         id="tspan238">Radiation</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="865.1875"
+         y="192.29916"
+         id="tspan239">Lab</tspan></text>
   </g>
 </svg>
