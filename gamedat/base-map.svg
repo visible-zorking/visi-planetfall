@@ -23,16 +23,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     showgrid="false"
+     showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="2794.5"
-     inkscape:cy="699"
+     inkscape:cx="2130.5"
+     inkscape:cy="731"
      inkscape:window-width="2240"
      inkscape:window-height="1220"
-     inkscape:window-x="145"
+     inkscape:window-x="144"
      inkscape:window-y="35"
      inkscape:window-maximized="0"
-     inkscape:current-layer="roomlayer"
+     inkscape:current-layer="decorlayer"
      showguides="false">
     <inkscape:grid
        id="grid1"
@@ -47,7 +47,7 @@
        opacity="0.14902"
        empspacing="5"
        enabled="true"
-       visible="false" />
+       visible="true" />
   </sodipodi:namedview>
   <style
      id="style1">svg.DarkTheme { filter: invert(90%) hue-rotate(180deg); }
@@ -159,6 +159,18 @@
        d="M 485.5104,203.72918 H 631.03122"
        id="path42"
        sodipodi:nodetypes="cc" />
+    <g
+       id="path221"
+       style="opacity:1">
+      <path
+         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:none;stroke-linejoin:round;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1;stroke:#d9d9d9;stroke-opacity:1"
+         d="m 733.33984,247.24023 -37.04101,55.5625 4.40234,2.93555 37.04102,-55.5625 z"
+         id="path222" />
+      <path
+         style="baseline-shift:baseline;display:inline;overflow:visible;stroke-linejoin:round;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1;stroke-width:1.05833332;stroke-dasharray:none;fill:none;fill-opacity:1;stroke:#d9d9d9;stroke-opacity:1"
+         d="m 735.54163,248.70835 -37.04167,55.56251"
+         id="path223" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -419,6 +431,11 @@
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
        d="m 891.64579,218.28126 v 13.22917"
        id="path200" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
+       d="m 698.49997,269.87501 0,27.78126"
+       id="path219"
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      inkscape:label="Rooms"
@@ -1225,6 +1242,14 @@
        y="230.18752"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
+    <rect
+       id="r-cryo-anteroom"
+       width="21.166666"
+       height="15.875001"
+       x="687.91663"
+       y="272.52084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1301,6 +1326,14 @@
        height="15.875002"
        x="629.70831"
        y="193.14584"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.7;stroke-opacity:1" />
+    <rect
+       id="rect219"
+       width="15.874991"
+       height="15.875002"
+       x="690.5625"
+       y="296.33334"
        ry="2.6458292"
        style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.7;stroke-opacity:1" />
   </g>
@@ -2926,5 +2959,21 @@
          x="674.6875"
          y="249.18976"
          id="tspan218-0">Complex</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="698.5"
+       y="279.39999"
+       id="text220"><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="698.5"
+         y="279.39999"
+         id="tspan220">Cryo</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="698.5"
+         y="284.90332"
+         id="tspan221">Anteroom</tspan></text>
   </g>
 </svg>
