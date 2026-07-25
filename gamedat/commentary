@@ -183,6 +183,7 @@ rtn:PRINT-OUT-F: The `FIXED-FONT` declarations be wrapped only around the tabula
 
 src:COMPTWO-1530: I wonder what this was attached to? Note that the message is a whimsical mashup of the endings of *Zork 1*, *Zork 3*, *Deadline*, and *Starcross*.
 
+src:COMPONE-2228: This was a somewhat obscure reference even in the 1980s. The first human-built nuclear reactor was an experiment in a disused [squash court|https://en.wikipedia.org/wiki/Chicago_Pile-1] beneath the University of Chicago.
 
 ### MICROBE-F: definitely mis-nested.
 
@@ -195,3 +196,5 @@ src:COMPTWO-1530: I wonder what this was attached to? Note that the message is a
 # This puts the shuttle speed limit at a blazing 16 mph! 
 # The "recommended" run (capped at 45) takes 763 millichrons, or 110 minutes.
 # If you leave the lever pushed, you can hit 20 mph by the time you reach turnover at the midpoint. That only shaves 14 millichrons (two minutes) off the trip time.
+
+# But then an elevator ride takes 100mc / 15 minutes.
