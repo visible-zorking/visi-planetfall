@@ -25,14 +25,14 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="2898.5"
-     inkscape:cy="515"
+     inkscape:cx="1864.5"
+     inkscape:cy="437"
      inkscape:window-width="2240"
      inkscape:window-height="1220"
      inkscape:window-x="145"
      inkscape:window-y="35"
      inkscape:window-maximized="0"
-     inkscape:current-layer="roomlayer"
+     inkscape:current-layer="decorlayer"
      showguides="false">
     <inkscape:grid
        id="grid1"
@@ -138,6 +138,26 @@
        style="font-variation-settings:normal;display:inline;fill:none;fill-opacity:1;stroke:#d9d9d9;stroke-width:2.11667;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
        d="m 34.39583,127.00001 c 13.229168,52.91667 97.89583,153.45833 127,174.62501"
        id="path5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#d9d9d9;stroke-width:2.11667;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       d="m 486.83331,150.81251 145.52082,0"
+       id="path39"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#d9d9d9;stroke-width:2.11667;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       d="M 485.5104,156.10418 H 631.03122"
+       id="path40"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#d9d9d9;stroke-width:2.11667;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       d="M 486.83331,198.43751 H 632.35413"
+       id="path41"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#d9d9d9;stroke-width:2.11667;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       d="M 485.5104,203.72918 H 631.03122"
+       id="path42"
        sodipodi:nodetypes="cc" />
   </g>
   <g
@@ -266,7 +286,7 @@
        id="path17" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 494.77088,153.45837 h 31.75"
+       d="m 600.60428,153.45837 h 31.75"
        id="path18" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
@@ -321,6 +341,10 @@
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
        d="m 171.97916,285.75002 -7.9375,5.29167 h 10.58333 l -7.9375,5.29166"
        id="path6-6" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
+       d="m 616.47914,158.75001 v 37.04168"
+       id="path35" />
   </g>
   <g
      inkscape:label="Rooms"
@@ -771,7 +795,7 @@
        id="r-shuttle-car-betty"
        width="15.874991"
        height="15.874997"
-       x="502.7081"
+       x="608.54181"
        y="145.52083"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -779,7 +803,7 @@
        id="r-betty-control-west"
        width="15.874991"
        height="15.874997"
-       x="481.54141"
+       x="587.375"
        y="145.52083"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -787,7 +811,7 @@
        id="r-betty-control-east"
        width="15.874991"
        height="15.874997"
-       x="523.87482"
+       x="629.70856"
        y="145.52083"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1091,6 +1115,54 @@
        height="15.875002"
        x="153.45833"
        y="293.68753"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.7;stroke-opacity:1" />
+    <rect
+       id="rect34"
+       width="15.874991"
+       height="15.875002"
+       x="502.70831"
+       y="145.52084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.7;stroke-opacity:1" />
+    <rect
+       id="rect35"
+       width="15.874991"
+       height="15.875002"
+       x="608.54163"
+       y="193.14584"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.7;stroke-opacity:1" />
+    <rect
+       id="rect36"
+       width="15.874991"
+       height="15.875002"
+       x="523.875"
+       y="145.52084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.7;stroke-opacity:1" />
+    <rect
+       id="rect37"
+       width="15.874991"
+       height="15.875002"
+       x="481.54166"
+       y="145.52084"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.7;stroke-opacity:1" />
+    <rect
+       id="rect38"
+       width="15.874991"
+       height="15.875002"
+       x="587.375"
+       y="193.14584"
+       ry="2.6458292"
+       style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.7;stroke-opacity:1" />
+    <rect
+       id="rect39"
+       width="15.874991"
+       height="15.875002"
+       x="629.70831"
+       y="193.14584"
        ry="2.6458292"
        style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.7;stroke-opacity:1" />
   </g>
@@ -1986,49 +2058,49 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="510.64557"
+       x="616.47931"
        y="152.40002"
        id="text71"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="510.64557"
+         x="616.47931"
          y="152.40002"
          id="tspan71">Shuttle</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="510.64557"
+         x="616.47931"
          y="157.90335"
          id="tspan81">Betty</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="489.47891"
+       x="595.3125"
        y="152.40002"
        id="text78"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="489.47891"
+         x="595.3125"
          y="152.40002"
          id="tspan77">Betty</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="489.47891"
+         x="595.3125"
          y="157.90335"
          id="tspan78">West</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="531.81232"
+       x="637.64606"
        y="152.40002"
        id="text80"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="531.81232"
+         x="637.64606"
          y="152.40002"
          id="tspan79">Betty</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="531.81232"
+         x="637.64606"
          y="157.90335"
          id="tspan80">East</tspan></text>
     <text
