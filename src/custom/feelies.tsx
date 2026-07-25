@@ -13,8 +13,6 @@ export function FeeliesPage()
                     recruiting material for the Stellar Patrol. However,
                     nothing in the package was intended as copy
                     protection or even critical background material.
-                    The opening paragraph of the game tells you everything
-                    you need to know.
                 </p>
                 <p>
                     To browse a scanned version of the manual and
@@ -22,6 +20,13 @@ export function FeeliesPage()
                     <ExtWebLink url={ 'https://infodoc.plover.net/manuals/planetfa.pdf' } text={ 'InfoDoc Project' } />.
                     For high-resolution scans, visit the{' '}
                     <ExtWebLink url={ 'https://archive.org/details/Infocom_Planetfall_Apple' } text={ 'Internet Archive' } />.
+                </p>
+                <p>
+                    The only substantive document is the protagonist&#x2019;s
+                    diary, which establishes that (a) you are a low-ranked
+                    ensign in the Stellar Patrol; (b) Ensign Blather is
+                    a bully. The game intro conveys the same in one tight
+                    paragraph.
                 </p>
                 <h2>Special commands</h2>
                 <p>
