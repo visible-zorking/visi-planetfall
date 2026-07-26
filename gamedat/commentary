@@ -190,11 +190,14 @@ const:SERIAL: This is not the public serial number (“851003”), but an intern
 
 src:VERBS-1575: If you type the debug command `$VERIFY 502`, the game displays the [const:SERIAL] value instead of doing the normal verification.
 
-### MICROBE-F: definitely mis-nested.
+src:COMPONE-1670: A commented-out digging machine. A [part|~src:COMPTWO-1739] for it (also commented out) would have been found in the [~obj:LAB-UNIFORM], so this was probably a discarded puzzle idea.
 
-### SERIAL is 1
+src:COMPTWO-1739: A commented-out part for the [digging machine|src:COMPONE-1670] (also commented out) in the [~obj:MACHINE-SHOP].
 
-### deleted DIGGER puzzle?
+src:COMPTWO-3049: This last message is not compiled into the game file. It’s effectively an `ELSE` for the “[~glob:WARMTH-FLAG] > 10” `COND`, which already has an `ELSE` clause directly above (the “greedily devours” response). So it can never run, and the compiler optimizes it out.
+	This is obvious because the Visible Planetfall has reformatted the routine to a consistent indendation! In the original source file, this clause is lined up with the *outer* `COND`. It’s clearly meant to apply to all objects other than the hot laser, but it’s at the wrong nesting level. The original indentation disguised this mistake.
+
+
 
 # The two islands are 20 km (12 miles) apart. The shuttle ride takes 24 turns at 600/v millichrons per turn. We may consistently assume that each turn covers half a mile.
 # So the recommended SHUTTLE-VELOCITY of "45" covers 12 miles in 320 millichrons, or 46 minutes.
