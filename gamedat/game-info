@@ -583,6 +583,7 @@ RoutineType - DDESC OBJ
 RoutineType - DO-WALK PROP
 RoutineType - FIND-IN OBJ ATTR
 RoutineType - GLOBAL-IN? OBJ OBJ
+RoutineType - HELD? OBJ
 RoutineType - HERE? OBJ
 RoutineType - GWIM - - PREP
 RoutineType - JIGS-UP STR
@@ -591,6 +592,7 @@ RoutineType - PERFORM ACTION PERFORMO PERFORMI
 RoutineType - PICK-ONE TABLE
 RoutineType - ROB OBJ OBJ
 RoutineType - SYNTAX-FOUND GLINE
+RoutineType - TELEPORT OBJ
 RoutineType - TIMELESS-VERB? ACTION
 RoutineType - V-CLIMB-UP PROP
 RoutineType - WT? WORD - -
