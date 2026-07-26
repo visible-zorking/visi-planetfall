@@ -25,14 +25,14 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="3380.5"
-     inkscape:cy="534"
+     inkscape:cx="1018.5"
+     inkscape:cy="446"
      inkscape:window-width="2240"
      inkscape:window-height="1220"
      inkscape:window-x="144"
      inkscape:window-y="35"
      inkscape:window-maximized="0"
-     inkscape:current-layer="decorlayer"
+     inkscape:current-layer="labellayer"
      showguides="false">
     <inkscape:grid
        id="grid1"
@@ -1452,17 +1452,17 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.7153px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877631;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
        x="177.27267"
-       y="113.3898"
+       y="112.86063"
        id="text4"><tspan
          sodipodi:role="line"
          style="stroke-width:0.877631"
          x="177.27267"
-         y="113.3898"
+         y="112.86063"
          id="tspan4">Conference</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.877631"
          x="177.27267"
-         y="118.21969"
+         y="117.69052"
          id="tspan6">Room</tspan></text>
     <text
        xml:space="preserve"
