@@ -1,7 +1,7 @@
 import { unpack_address } from '../visi/gametypes';
 import { GnustoEngine, ZState, ZStatePlus } from '../visi/zstate';
 import { gamedat_routine_names, gamedat_global_names, gamedat_string_map } from '../visi/gamedat';
-import { ExtraToggle } from '../visi/map';
+import { OptPosition, ExtraToggle } from '../visi/map';
 import { TranslationEntry, gamedat_translation_addrs } from './info';
 
 export type SpecificPlanetfall = {
@@ -59,20 +59,30 @@ export function show_commentary_hook(topic: string, engine: GnustoEngine): strin
     return null;
 }
 
+const escape_pod_shift = { x:127, y:179.9 };
+const escape_pod_half_shift = { x:46, y:90 };
+
+function transform_for(pos: OptPosition): string
+{
+    if (!pos)
+        return '';
+
+    return 'translate('+pos.x+','+pos.y+')';
+}
+
 export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
 {
     let pod_moved = (zstate.globals[212] >= 5); // BLOWUP-COUNTER
 
     let ls = [];
 
-    let mtransform: string;
-    if (pod_moved) {
-        mtransform = 'translate(127,179.9)';
-    }
-    else {
-        mtransform = '';
-    }
-    ls.push({ id:'r-escape-pod', transform:mtransform });
+    let escape_pod: OptPosition = null;
+    if (zstate.globals[211] >= 15)       // TRIP-COUNTER
+        escape_pod = escape_pod_shift;
+    else if (zstate.globals[212] >= 5)   // BLOWUP-COUNTER
+        escape_pod = escape_pod_half_shift;
     
+    ls.push({ id:'r-escape-pod', transform:transform_for(escape_pod) });
+
     return ls;
 }
