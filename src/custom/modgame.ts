@@ -1,7 +1,7 @@
 import { unpack_address } from '../visi/gametypes';
 import { GnustoEngine, ZState, ZStatePlus } from '../visi/zstate';
-import { gamedat_routine_names, gamedat_global_names, gamedat_string_map } from '../visi/gamedat';
-import { OptPosition, ExtraToggle } from '../visi/map';
+import { gamedat_roominfo_names, gamedat_routine_names, gamedat_global_names, gamedat_string_map } from '../visi/gamedat';
+import { OptPosition, ExtraToggle, ScrollCenterInfo } from '../visi/map';
 import { TranslationEntry, gamedat_translation_addrs } from './info';
 
 export type SpecificPlanetfall = {
@@ -62,6 +62,24 @@ export function show_commentary_hook(topic: string, engine: GnustoEngine): strin
 const escape_pod_shift = { x:127, y:179.9 };
 const escape_pod_half_shift = { x:46, y:90 };
 
+function offset_for_room(zstate: ZStatePlus, locname: string): OptPosition
+{
+    switch (locname) {
+        
+    case 'ESCAPE-POD':
+        
+        if (zstate.globals[211] >= 15)       // TRIP-COUNTER
+            return { x:127, y:179.9 };
+        else if (zstate.globals[212] >= 5)   // BLOWUP-COUNTER
+            return { x:46, y:90 };
+        else
+            return null;
+
+    default:
+        return null;
+    }
+}
+
 function transform_for(pos: OptPosition): string
 {
     if (!pos)
@@ -76,13 +94,22 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
 
     let ls = [];
 
-    let escape_pod: OptPosition = null;
-    if (zstate.globals[211] >= 15)       // TRIP-COUNTER
-        escape_pod = escape_pod_shift;
-    else if (zstate.globals[212] >= 5)   // BLOWUP-COUNTER
-        escape_pod = escape_pod_half_shift;
+    ls.push({ id:'r-escape-pod', transform:transform_for(offset_for_room(zstate, 'ESCAPE-POD')) });
     
-    ls.push({ id:'r-escape-pod', transform:transform_for(escape_pod) });
-
     return ls;
+}
+
+export function map_scrollcenter(zstate: ZStatePlus, locname: string): ScrollCenterInfo
+{
+    let offset = offset_for_room(zstate, locname);
+    if (!offset)
+        return null;
+
+    let roomobj = gamedat_roominfo_names.get(locname);
+    if (roomobj) {
+        let pos = { x: roomobj.center.x + offset.x, y: roomobj.center.y + offset.y };
+        return { pos: pos };
+    }
+    
+    return null;
 }
