@@ -111,7 +111,11 @@ function offset_for_room(zstate: ZStatePlus, locname: string): OptPosition
     case 'ALFIE-CONTROL-EAST':
         // SHUTTLE-MOVING && (ALFIE-CONTROL-WEST || ALFIE-CONTROL-EAST)...
         if (zstate.globals[202] && (zstate.globals[0] == 200 || zstate.globals[0] == 202)) {
-            return { x:105.833/2, y:0 };
+            let dist = zstate.globals[199];  // SHUTTLE-COUNTER
+            if (zstate.globals[204])   // ALFIE-AT-KALAMONTEE
+                return { x:105.833 * (dist+1) / 25, y:0 };
+            else
+                return { x:105.833 * (24-dist) / 25, y:0 };
         }
         else {
             if (!zstate.globals[204])   // ALFIE-AT-KALAMONTEE
