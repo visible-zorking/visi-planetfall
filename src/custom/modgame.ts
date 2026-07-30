@@ -67,11 +67,22 @@ function offset_for_room(zstate: ZStatePlus, locname: string): OptPosition
     switch (locname) {
         
     case 'ESCAPE-POD':
-        
         if (zstate.globals[211] >= 15)       // TRIP-COUNTER
             return { x:127, y:179.9 };
         else if (zstate.globals[212] >= 5)   // BLOWUP-COUNTER
             return { x:46, y:90 };
+        else
+            return null;
+
+    case 'UPPER-ELEVATOR':
+        if (zstate.globals[104])  // UPPER-ELEVATOR-UP
+            return { x:58.21, y:-71.44 };
+        else
+            return null;
+
+    case 'LOWER-ELEVATOR':
+        if (!zstate.globals[105])  // LOWER-ELEVATOR-UP
+            return { x:55.56, y:39.69 };
         else
             return null;
 
@@ -96,6 +107,9 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
     let ls = [];
 
     ls.push({ id:'r-escape-pod', transform:transform_for(zstate, 'ESCAPE-POD') });
+    ls.push({ id:'r-upper-elevator', transform:transform_for(zstate, 'UPPER-ELEVATOR') });
+    ls.push({ id:'r-lower-elevator', transform:transform_for(zstate, 'LOWER-ELEVATOR') });
+    ls.push({ id:'r-cryo-elevator', transform:transform_for(zstate, 'CRYO-ELEVATOR') });
     
     return ls;
 }
