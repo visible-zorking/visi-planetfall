@@ -95,18 +95,30 @@ function offset_for_room(zstate: ZStatePlus, locname: string): OptPosition
     case 'SHUTTLE-CAR-BETTY':
     case 'BETTY-CONTROL-WEST':
     case 'BETTY-CONTROL-EAST':
-        if (zstate.globals[203])   // BETTY-AT-KALAMONTEE
-            return { x:-105.833, y:0 }
-        else
-            return null;
+        // SHUTTLE-MOVING && (BETTY-CONTROL-WEST || BETTY-CONTROL-EAST)...
+        if (zstate.globals[202] && (zstate.globals[0] == 197 || zstate.globals[0] == 198)) {
+            return { x:-105.833/2, y:0 };
+        }
+        else {
+            if (zstate.globals[203])   // BETTY-AT-KALAMONTEE
+                return { x:-105.833, y:0 }
+            else
+                return null;
+        }
 
     case 'SHUTTLE-CAR-ALFIE':
     case 'ALFIE-CONTROL-WEST':
     case 'ALFIE-CONTROL-EAST':
-        if (!zstate.globals[204])   // ALFIE-AT-KALAMONTEE
-            return { x:105.833, y:0 }
-        else
-            return null;
+        // SHUTTLE-MOVING && (ALFIE-CONTROL-WEST || ALFIE-CONTROL-EAST)...
+        if (zstate.globals[202] && (zstate.globals[0] == 200 || zstate.globals[0] == 202)) {
+            return { x:105.833/2, y:0 };
+        }
+        else {
+            if (!zstate.globals[204])   // ALFIE-AT-KALAMONTEE
+                return { x:105.833, y:0 }
+            else
+                return null;
+        }
 
     default:
         return null;
