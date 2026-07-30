@@ -23,16 +23,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     showgrid="false"
+     showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="3004.5"
-     inkscape:cy="906"
+     inkscape:cx="2840.5"
+     inkscape:cy="876"
      inkscape:window-width="2240"
      inkscape:window-height="1220"
-     inkscape:window-x="144"
+     inkscape:window-x="143"
      inkscape:window-y="7"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="labellayer"
      showguides="false">
     <inkscape:grid
        id="grid1"
@@ -47,7 +47,7 @@
        opacity="0.14902"
        empspacing="5"
        enabled="true"
-       visible="false" />
+       visible="true" />
   </sodipodi:namedview>
   <style
      id="style1">svg.DarkTheme { filter: invert(90%) hue-rotate(180deg); }
@@ -472,7 +472,7 @@
      inkscape:label="Front-Decor"
      style="display:inline">
     <rect
-       id="rect7"
+       id="loc-upper-elevator-u"
        width="15.874991"
        height="15.875002"
        x="460.37473"
@@ -480,7 +480,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#a6a6a6;stroke-width:0.7;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
     <rect
-       id="rect3"
+       id="loc-lower-elevator-d"
        width="15.874991"
        height="15.875002"
        x="457.72891"
@@ -544,7 +544,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#a6a6a6;stroke-width:0.7;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
     <rect
-       id="rect219"
+       id="loc-cryo-elevator-d"
        width="15.874991"
        height="15.875002"
        x="690.5625"
@@ -559,6 +559,30 @@
        y="113.77084"
        ry="2.6458292"
        style="display:inline;fill:#f8f8f8;fill-opacity:1;stroke:#a6a6a6;stroke-width:0.7;stroke-opacity:1" />
+    <rect
+       id="loc-lower-elevator-u"
+       width="15.874991"
+       height="15.875002"
+       x="402.16666"
+       y="153.45834"
+       ry="2.6458292"
+       style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f8f8f8;fill-opacity:1;stroke:#a6a6a6;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
+    <rect
+       id="loc-upper-elevator-d"
+       width="15.874991"
+       height="15.875002"
+       x="402.16666"
+       y="105.83334"
+       ry="2.6458292"
+       style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f8f8f8;fill-opacity:1;stroke:#a6a6a6;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
+    <rect
+       id="loc-cryo-elevator-u"
+       width="15.874991"
+       height="15.875002"
+       x="727.60413"
+       y="240.77084"
+       ry="2.6458292"
+       style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f8f8f8;fill-opacity:1;stroke:#a6a6a6;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
   </g>
   <g
      inkscape:label="Rooms"
@@ -3125,5 +3149,53 @@
          x="161.39583"
          y="306.07001"
          id="tspan125-4">Pod</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.64373px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.860724;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="468.31247"
+       y="41.275002"
+       id="text5"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.860724"
+         x="468.31247"
+         y="41.275002"
+         id="tspan3">Upper</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.860724"
+         x="468.31247"
+         y="46.011848"
+         id="tspan5">Elevator</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.64373px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.860724;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="465.66666"
+       y="200.02502"
+       id="text13"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.860724"
+         x="465.66666"
+         y="200.02502"
+         id="tspan11">Lower</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.860724"
+         x="465.66666"
+         y="204.76187"
+         id="tspan13">Elevator</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.71224px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.876908;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       x="698.49994"
+       y="303.21249"
+       id="text17"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.71224px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.876908;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+         x="698.49994"
+         y="303.21249"
+         id="tspan15">Cryo</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.71224px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.876908;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+         x="698.49994"
+         y="308.03839"
+         id="tspan17">Elevator</tspan></text>
   </g>
 </svg>
