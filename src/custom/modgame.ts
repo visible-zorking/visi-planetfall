@@ -80,8 +80,9 @@ function offset_for_room(zstate: ZStatePlus, locname: string): OptPosition
     }
 }
 
-function transform_for(pos: OptPosition): string
+function transform_for(zstate: ZStatePlus, locname: string): string
 {
+    let pos = offset_for_room(zstate, locname);
     if (!pos)
         return '';
 
@@ -94,7 +95,7 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
 
     let ls = [];
 
-    ls.push({ id:'r-escape-pod', transform:transform_for(offset_for_room(zstate, 'ESCAPE-POD')) });
+    ls.push({ id:'r-escape-pod', transform:transform_for(zstate, 'ESCAPE-POD') });
     
     return ls;
 }
