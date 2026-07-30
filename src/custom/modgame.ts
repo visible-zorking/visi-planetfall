@@ -86,6 +86,12 @@ function offset_for_room(zstate: ZStatePlus, locname: string): OptPosition
         else
             return null;
 
+    case 'CRYO-ELEVATOR':
+        if (zstate.globals[43])  // CRYO-SCORE-FLAG
+            return { x:-37.04, y:55.56 };
+        else
+            return null;
+
     default:
         return null;
     }
