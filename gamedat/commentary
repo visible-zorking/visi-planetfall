@@ -158,6 +158,17 @@ glob:NUMBER-NEEDED: The correct combination for the [~obj:COMBINATION-DIAL]. The
 	Note that peeking at this value in the State tab won’t help you much! The [~obj:TELEPORTATION-CARD] is in the same place as the [~obj:COMBINATION-PAPER] clue. This must have been a guard against brute-force guessing; it serves equally well against Visible Zorker cheats.
 
 
+glob:DREAMS: The dream sequences are a mix of silliness, foreboding, and in-jokes. Just like real life, really.
+
+src:GLOBALS-2182: This dream can occur (with a low probability) after you’ve reached the Lawanda Complex.
+	(This is a slight logic hole, since you can retrieve both the [~obj:LOWER-ELEVATOR-CARD] and the [~obj:SHUTTLE-CARD] without activating Floyd and thus learning his name.)
+	
+src:GLOBALS-2215: This dream is a reference to *Zork 1*. It also gives an understated hint for a puzzle later in *Planetfall*.
+
+src:GLOBALS-2222: This dream may be a reference to *Starcross*. It’s also the only diegetic title-drop in *Planetfall*.
+	(No, I’m not counting the [~obj:BROCHURE].)
+
+
 src:COMPTWO-2088: This is of course a summary of *Starcross*. That game took place in the year 2186. “Ten thousand years before” gives some sense of the time scale of the Third Galactic Union. (See also [rtn:GRUE-F].)
 	The poetry is bunk. Still, as a kid, I was impressed by the idea of one adventurer’s history gradually turning into another adventurer’s ancient myth.
 
