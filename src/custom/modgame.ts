@@ -97,7 +97,11 @@ function offset_for_room(zstate: ZStatePlus, locname: string): OptPosition
     case 'BETTY-CONTROL-EAST':
         // SHUTTLE-MOVING && (BETTY-CONTROL-WEST || BETTY-CONTROL-EAST)...
         if (zstate.globals[202] && (zstate.globals[0] == 197 || zstate.globals[0] == 198)) {
-            return { x:-105.833/2, y:0 };
+            let dist = zstate.globals[199];  // SHUTTLE-COUNTER
+            if (!zstate.globals[203])   // BETTY-AT-KALAMONTEE
+                return { x:-105.833 * (dist+1) / 25, y:0 };
+            else
+                return { x:-105.833 * (24-dist) / 25, y:0 };
         }
         else {
             if (zstate.globals[203])   // BETTY-AT-KALAMONTEE
