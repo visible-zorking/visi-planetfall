@@ -1,6 +1,7 @@
 import { unpack_address } from '../visi/gametypes';
-import { GnustoEngine, ZState } from '../visi/zstate';
+import { GnustoEngine, ZState, ZStatePlus } from '../visi/zstate';
 import { gamedat_routine_names, gamedat_global_names, gamedat_string_map } from '../visi/gamedat';
+import { ExtraToggle } from '../visi/map';
 import { TranslationEntry, gamedat_translation_addrs } from './info';
 
 export type SpecificPlanetfall = {
@@ -58,3 +59,20 @@ export function show_commentary_hook(topic: string, engine: GnustoEngine): strin
     return null;
 }
 
+export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
+{
+    let pod_moved = (zstate.globals[212] >= 5); // BLOWUP-COUNTER
+
+    let ls = [];
+
+    let mtransform: string;
+    if (pod_moved) {
+        mtransform = 'translate(127,179.9)';
+    }
+    else {
+        mtransform = '';
+    }
+    ls.push({ id:'r-escape-pod', transform:mtransform });
+    
+    return ls;
+}
