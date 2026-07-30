@@ -128,6 +128,8 @@ glob:SHUTTLE-VELOCITY: The units are not specified, but it increases in steps of
 	The shuttle run always takes exactly 24 *turns*, regardless of `SHUTTLE-VELOCITY`. This implies that each turn measures a fixed *distance* along the tunnel. The [glob:C-ELAPSED] time to move that distance is [600/velocity|~src:MISC-302]. That means 120 millichrons/turn at a crawl, or as low as 10/turn if you floor it.
 	Infocom games almost always identify turns with time, even if abstractly. The shuttle scene is an unusual exception.
 
+glob:SHUTTLE-RECORDING-2: *Bug:* You can activate a shuttle from the front cabin and then run to the back and drive it from there.
+
 rtn:I-FLOYD: The general handler for Floyd following you around and doing stuff. It usually runs every turn when Floyd is active (has [attr:RLANDBIT]), but it’s given a short delay the first time you turn him on (see [here|~src:COMPONE-2074].) It’s also sometimes given a delay if Floyd wants some alone time.
 
 
