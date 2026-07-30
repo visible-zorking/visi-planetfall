@@ -75,7 +75,7 @@ function offset_for_room(zstate: ZStatePlus, locname: string): OptPosition
             return null;
 
     case 'UPPER-ELEVATOR':
-        if (zstate.globals[104])  // UPPER-ELEVATOR-UP
+        if (zstate.globals[104])   // UPPER-ELEVATOR-UP
             return { x:58.21, y:-71.44 };
         else
             return null;
@@ -87,8 +87,24 @@ function offset_for_room(zstate: ZStatePlus, locname: string): OptPosition
             return null;
 
     case 'CRYO-ELEVATOR':
-        if (zstate.globals[43])  // CRYO-SCORE-FLAG
+        if (zstate.globals[43])    // CRYO-SCORE-FLAG
             return { x:-37.04, y:55.56 };
+        else
+            return null;
+
+    case 'SHUTTLE-CAR-BETTY':
+    case 'BETTY-CONTROL-WEST':
+    case 'BETTY-CONTROL-EAST':
+        if (zstate.globals[203])   // BETTY-AT-KALAMONTEE
+            return { x:-105.833, y:0 }
+        else
+            return null;
+
+    case 'SHUTTLE-CAR-ALFIE':
+    case 'ALFIE-CONTROL-WEST':
+    case 'ALFIE-CONTROL-EAST':
+        if (!zstate.globals[204])   // ALFIE-AT-KALAMONTEE
+            return { x:105.833, y:0 }
         else
             return null;
 
@@ -116,6 +132,13 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
     ls.push({ id:'r-upper-elevator', transform:transform_for(zstate, 'UPPER-ELEVATOR') });
     ls.push({ id:'r-lower-elevator', transform:transform_for(zstate, 'LOWER-ELEVATOR') });
     ls.push({ id:'r-cryo-elevator', transform:transform_for(zstate, 'CRYO-ELEVATOR') });
+    
+    ls.push({ id:'r-shuttle-car-alfie', transform:transform_for(zstate, 'SHUTTLE-CAR-ALFIE') });
+    ls.push({ id:'r-alfie-control-east', transform:transform_for(zstate, 'ALFIE-CONTROL-EAST') });
+    ls.push({ id:'r-alfie-control-west', transform:transform_for(zstate, 'ALFIE-CONTROL-WEST') });
+    ls.push({ id:'r-shuttle-car-betty', transform:transform_for(zstate, 'SHUTTLE-CAR-BETTY') });
+    ls.push({ id:'r-betty-control-east', transform:transform_for(zstate, 'BETTY-CONTROL-EAST') });
+    ls.push({ id:'r-betty-control-west', transform:transform_for(zstate, 'BETTY-CONTROL-WEST') });
     
     return ls;
 }
