@@ -1,6 +1,6 @@
-import { unpack_address } from '../visi/gametypes';
+import { unpack_address, ObjectData } from '../visi/gametypes';
 import { GnustoEngine, ZState, ZStatePlus } from '../visi/zstate';
-import { gamedat_roominfo_names, gamedat_routine_names, gamedat_global_names, gamedat_string_map } from '../visi/gamedat';
+import { gamedat_ids, gamedat_object_ids, gamedat_roominfo_names, gamedat_routine_names, gamedat_global_names, gamedat_string_map } from '../visi/gamedat';
 import { OptPosition, ExtraToggle, ScrollCenterInfo } from '../visi/map';
 import { TranslationEntry, gamedat_translation_addrs } from './info';
 
@@ -147,6 +147,32 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
     let pod_moved = (zstate.globals[212] >= 5); // BLOWUP-COUNTER
 
     let ls = [];
+
+    if (true) {
+        let zobj = zstate.objects[gamedat_ids.FLOYD-1];
+        let obj = gamedat_object_ids.get(gamedat_ids.FLOYD);
+        let mobcen: OptPosition = null;
+        let mobloc: ObjectData|undefined;
+        if (zobj.parent) {
+            mobloc = gamedat_object_ids.get(zobj.parent);
+            if (mobloc) {
+                let throomobj = gamedat_roominfo_names.get(mobloc.name);
+                if (throomobj) {
+                    mobcen = throomobj.bottom;
+                }
+            }
+        }
+        if (mobcen && mobloc) {
+            let posx = mobcen.x;
+            let posy = mobcen.y;
+            
+            let mtransform = 'translate('+posx+','+posy+')';
+            ls.push({ id:'mob-floyd', class:'', transform:mtransform });
+        }
+        else {
+            ls.push({ id:'mob-floyd', class:'Offstage' });
+        }
+    }
 
     ls.push({ id:'r-escape-pod', transform:transform_for(zstate, 'ESCAPE-POD') });
     ls.push({ id:'r-upper-elevator', transform:transform_for(zstate, 'UPPER-ELEVATOR') });
