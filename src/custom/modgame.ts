@@ -152,6 +152,7 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
         let zobj = zstate.objects[gamedat_ids.FLOYD-1];
         let obj = gamedat_object_ids.get(gamedat_ids.FLOYD);
         let mobcen: OptPosition = null;
+        let moboffset: OptPosition = null;
         let mobloc: ObjectData|undefined;
         if (zobj.parent) {
             mobloc = gamedat_object_ids.get(zobj.parent);
@@ -159,12 +160,17 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
                 let throomobj = gamedat_roominfo_names.get(mobloc.name);
                 if (throomobj) {
                     mobcen = throomobj.bottom;
+                    moboffset = offset_for_room(zstate, mobloc.name);
                 }
             }
         }
         if (mobcen && mobloc) {
             let posx = mobcen.x;
             let posy = mobcen.y;
+            if (moboffset) {
+                posx += moboffset.x;
+                posy += moboffset.y;
+            }
             
             let mtransform = 'translate('+posx+','+posy+')';
             ls.push({ id:'mob-floyd', class:'', transform:mtransform });
