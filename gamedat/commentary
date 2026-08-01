@@ -54,7 +54,7 @@ rtn:GO: Set up the world at the start of the game. Start the timers. Print the b
 rtn:JIGS-UP: This routine displays your demise and then calls [rtn:FINISH].
 
 rtn:FINISH: This routine displays your score. Then, if you haven’t reached a story conclusion, it offers a “`RESTART`, `RESTORE`, or `QUIT`” choice.
-	(*Planetfall* is the first Infocom game to adopt this end-of-game convention!)
+	(Infocom didn’t come up with this end-of-game convention until 1984, and they didn’t really standardize on it until 1985. This version of *Planetfall* is the first one that offers you that choice. Previous versions just asked you “In the interests of interstellar peace, would you like to play again?”)
 
 
 prop:C-MOVE: This property does double duty. For rooms, it specifies extra travel time for particular directions. (That is, unusually long exit paths.)
