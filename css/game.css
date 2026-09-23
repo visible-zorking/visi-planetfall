@@ -4,3 +4,11 @@
     font-weight: bold;
     white-space: pre-wrap;
 }
+
+.TranslatePage hr {
+    border: none;
+    height: 1px;
+    background: #AAA;
+    margin-left: 40px;
+    margin-right: 40px;
+}
